@@ -1,0 +1,7403 @@
+fileFormatVersion: 2
+guid: 0ee31a982ca32459da6e8154c60bd40f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shir_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 734
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f733e8209220411b946511173e2fd31
+      internalID: -1680274530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 734
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a7d967e4b5741b0aeceba59535a5f3
+      internalID: -2120363198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 734
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6ef2a83914047f48c456bcb3212fad
+      internalID: 110750090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 734
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc91e94702644efd82e5ea3ab51bdf4
+      internalID: 1047612234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 734
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d048750ccc5d542fdb5b174bbc81be5a
+      internalID: 1588878887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_29
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 700
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fdd6df80bb8486d9edfe64f01e3177
+      internalID: 357088060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 700
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bab828ba246044da9070048862fc90f
+      internalID: 1095753193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_32
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 700
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efbb4bae1e2243ef84a92fb99e9396f
+      internalID: -87687318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_33
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 700
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fc188b3fd4e421d8434aa823fab1eb
+      internalID: 1309260747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_34
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 700
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc30f15d7baa4770ac4b192efca5380
+      internalID: -679695047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 673
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844777a23dda84e14a07cf7a396a9fc0
+      internalID: 1516522316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_37
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 673
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9365fdef0c40d4dce8d056cb51ac0e5d
+      internalID: -108189130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 673
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481136ea69df14482abc80504d1f212e
+      internalID: 1568198124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 673
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1500722e46154e839f5e100c49c96a8
+      internalID: -1153438247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_41
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 665
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d677646ab809c4bd5abae1b102a46b74
+      internalID: 1230820755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_45
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 666
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af4f252c1f254249bcfd4649eb57f42
+      internalID: 956530569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_46
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 666
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc955db6e9c0649259f5fa8da9f8e9a3
+      internalID: 500220006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_47
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 666
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e774ba2bbbdc94ae4bf15c3d6a670798
+      internalID: 1789970575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_48
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 666
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515778a446e0c4528b8f38483ad83f34
+      internalID: 1712022166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 639
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31342e8c493f042f7b8f286f8a580739
+      internalID: -422739368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_52
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 632
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c6160a2f4d94fe6ad09adaf2d59cf6
+      internalID: 665504623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_53
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 632
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290232492a8e34688b59cd4d46a98b3e
+      internalID: -1646489036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_54
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 632
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4717ca53631d84853b6532427f37670a
+      internalID: -1093039822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0d04bef397145af9aad15f05b3e71d
+      internalID: 1391238861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58826857ffc1c4679afff069d4c19ba1
+      internalID: 31612430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90f70e5b08fd45f4ac67b53787edc2c
+      internalID: -1352703954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_58
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e3f134dc74b417b9e35d10a233a428
+      internalID: 280390029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_59
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f516335ee5b7436dadd512910edda84
+      internalID: 331608408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_60
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699bb5228e72b418098ea29051ce9230
+      internalID: 2063971971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_61
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcd4380e016841419c2a725a6ae91e8
+      internalID: -631900021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_62
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6505f3f43609c4dfa81c52a673bd9369
+      internalID: -1849444288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_63
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caa7129210de456f95cd27185b68cd8
+      internalID: 1591234124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_64
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc27dba0d4fc48a9bb8f264b692db23
+      internalID: 1976839990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_65
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db7c67516879465caffceb82141d74f
+      internalID: 1312829263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_66
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366a0097db3674d698f3947214035faf
+      internalID: -1188701954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_67
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d45b49c238e94772a43402e58f30011
+      internalID: 408249936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_68
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb1456b6a33c41fc96324bcd8f7a80b
+      internalID: 456528961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_69
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76e58ec88c514df48d31bcb55de5ba8
+      internalID: -310633174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_70
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4358080ab39444d2697fc0b080b77048
+      internalID: -539445303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_71
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad659abcfa0a4823a0f2497640cee0c
+      internalID: 1499072980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_72
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3879c18f49f2a4973991f07897e8f072
+      internalID: -908418227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_73
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1deec2e09d0548028af6d80eb632d15
+      internalID: 1432279603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_74
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d5985c8d373400387edbd5d175906e
+      internalID: -54373937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_75
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd048ae3dcfc443fabee145099f4241
+      internalID: 1964731466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_76
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 598
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba37df20251448129230f75b47cfba3
+      internalID: 1928335697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e37ca15a502547a2aa6c731642413f1
+      internalID: 1535677038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_78
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b488c547788364b4394ebe5bf91daff0
+      internalID: 269100640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_79
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98247b2eaba44c8e8fef02a9c8d8d84
+      internalID: 2025418462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_80
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc00cc2206901404ca45db5e547c3334
+      internalID: 1601588160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_81
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b521d45f8fe7f486f81982aa26531b2f
+      internalID: 1097755718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc02b93ed1bf3435295e66df96a8e4e2
+      internalID: -183325673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_83
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ea7fbd0d6b94960a0ab5e633bdcd3c
+      internalID: 216813896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_84
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6bef1724d2e4dcf9d5148f3d9b2c1c
+      internalID: 2117855764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_85
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851303ce0ce1443db875ea27c75e514a
+      internalID: 950735691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_86
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e1e721a56524f008c366a464976d6c
+      internalID: 821821205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_87
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c024e818975864bca916a07b09dfa47e
+      internalID: -855286929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_88
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad958be8d64714e159591466e61f5d3a
+      internalID: -961522368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_89
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fd26e0dafab4bae92de9097005b532
+      internalID: -2127400063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_90
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2648ee80a2fb14215bde3fa43d1eda10
+      internalID: 2075093426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_91
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53530640e97e4fc18208523f9d9106c
+      internalID: -1509741914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_92
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cd7b4a3bcaf4145913b767d32fd89a
+      internalID: 1890802691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_93
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55f653d9c4d9417986359676b0163ae
+      internalID: -1988086435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_94
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d01f8fcb157c45b69ac8ad0744945b4
+      internalID: 764690691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_95
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb2f224267e74096973bace7f59c5cd
+      internalID: 437785841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_96
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd60976c6d624b92a418315e9365efa
+      internalID: -1201252549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_97
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3540c0d38be334655b563a5e0abf5f80
+      internalID: 1146368734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_98
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d78a582f623426294153128752dcb9
+      internalID: 1594247771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd4233774b3c4a8786a433d8cd73f33
+      internalID: -1652507281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_100
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a8aff0241134c0a8d35bb845c85ae7
+      internalID: 971761093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_101
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40ebebd376d047398d7a81c4e11c722
+      internalID: 1167149772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_102
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9737c6893f3714be0851be1baf06da52
+      internalID: -525339716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_103
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed4bd9c069d43a2a20192b05815473
+      internalID: 374904192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_104
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a5a519376c54043ab3df8772177a69
+      internalID: 66621024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_105
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387248c7b90d3439daf71a3cdd652205
+      internalID: 812814320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_106
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bf0127879294162b00505127929be0
+      internalID: 638717239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_107
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d088944b07fcc47ed96040c1163de68e
+      internalID: -793037351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_108
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba79f24927784d919629dffc442a874
+      internalID: 1359882686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_109
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c185b9c960fa44e63a2467f0565fde58
+      internalID: 2049814568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_110
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a263960eee474306b545e8d01b30750
+      internalID: 1461158312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_111
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037f544f4211d4795aa6a8ae9c0ec33c
+      internalID: 634890276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_112
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edde757a5ac6f4896be43730ff211738
+      internalID: -1105772670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_113
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec045b6de8294f50b1518a5933975c8
+      internalID: -1328079184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_114
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504449e2be1574b6381d6d5b1ac956b9
+      internalID: 371433228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_115
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9656ab81ecf54c94a6dc93d231c5032
+      internalID: 1166788769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_116
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af48b00cd77e4d6aa5243315440bc99
+      internalID: 1675088671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_117
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 530
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c411bb6df5054a0c8d9c883991f3a80
+      internalID: 1196731912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b34282f6568c4d50a5079ce06ecfb57
+      internalID: -464164801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_125
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b54cc28f53284577924330fab1d66cd
+      internalID: -1878073166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_126
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b8a44a8a4a4f2686f7f3e3b88d105
+      internalID: 747793867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_127
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e362d100074aa38513fa54251488e
+      internalID: 930096293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_128
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b258bec042224436a274d29325dbf2f
+      internalID: -1813105462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_129
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b01f141d804188acaca07683f5981
+      internalID: 485576313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_130
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7869b3f4e1544bd7bd97a5f00cfa10b
+      internalID: 1015273864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_131
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4a61842841d41fd89d0712731d7006
+      internalID: 2061374993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_132
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48639d7e9229b48778ef0b7ee2593f7f
+      internalID: 253251528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_133
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a11c5fa9930407c9bd92316e7a2ce4
+      internalID: -1647862652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_134
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f55380850b042adb5e8c79a119fe14
+      internalID: -279706371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_135
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8c94e01fbac4137818574c78b0631e
+      internalID: -173393864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_136
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e6cc688aca9485789f1d8209505b91
+      internalID: 1758918065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_144
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732b432ee9e0c4cb5adf986ecd5d033b
+      internalID: 505944504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_145
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03555597470a140eb92dd7f270efd634
+      internalID: 50365540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_146
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e322cb449f234280a480e97a069cc57
+      internalID: 226409726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_147
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbe1d4f32aac47a9ade851ba81037ec
+      internalID: 1882360431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_148
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec2da057fe674218ac493ab5b69a1d3
+      internalID: -1589038653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_149
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546840438a9094ff8b551b0623101ce6
+      internalID: -935767429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_150
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9254572d9a38a46fe88593b8005973d1
+      internalID: -254533478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_151
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047684048fcc9477f91ba3c41f3d0235
+      internalID: -735190678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_152
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f79012ede52147e191cc02e8bab7721
+      internalID: -458640117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_153
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeb69ea7740b4319ae8166a1171f235
+      internalID: -42644268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_154
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eb54bef50914a6cac236498a1f6b36
+      internalID: 1751619960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_155
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 462
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c88cba81e848d483f9fbeb52611f9
+      internalID: 1199469354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 238
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a31230ecdf0c4ea3bc84d7c1a46f403
+      internalID: 824099410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_163
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e8b9a67bdf54115b7996c4cad0ac9e
+      internalID: -2022196798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_164
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f7a06e42411418b94851364f95748b
+      internalID: 458336030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_165
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff6f485a61174a78baaf1fcc21e729c
+      internalID: 2143879328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_166
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6249e581aa8e4ef38fe1596d2826d72
+      internalID: -1304259911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_167
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bd9986a24d545978c80a671503932f
+      internalID: 1618340629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_168
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75547d319109546ebb46a67fb6bc02ac
+      internalID: 1179437270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_169
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1796825f0e3f472eb064d0478351fa0
+      internalID: -570630073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_170
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16875e4fd96974a8f8a7e391758563fe
+      internalID: -122634652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_171
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ec2fbf46bf54cf09ecf1a9c5dd9e93
+      internalID: 791904180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_172
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2383a450c4a4452afea91be23e8b81
+      internalID: -933551247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_173
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39febf87747da4a04ae5435eba1eb17e
+      internalID: 1898494191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_174
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 428
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c4a65cbc1854478ac64abdb915868f
+      internalID: -482723195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cd4eeae395249de8a719bdc52fa00c
+      internalID: 1365491550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_176
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0641695aac504e04bbcfa38c6c50299
+      internalID: 1963393409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_177
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e9e984eeac143b586c48472a74774e
+      internalID: -855509013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_178
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df41561427144f9db2c6bea814a52ad
+      internalID: -2034895967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_179
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f42d75398c4dfb955a9d6658cf5c6
+      internalID: -581327062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_180
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6cfdb33372549f49570037418b80d1
+      internalID: 2014638202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_181
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3609e1a6ffe4f939d281a06cf680cb
+      internalID: 2057324298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_182
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d978c4f909846138cf7b95f3bc7995
+      internalID: 2021716958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_183
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0d37905a9e74d9c90b6c429c86919b
+      internalID: -2057577542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_184
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fb4ab258e0c41208df2cf110253fe4
+      internalID: -2094393724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_185
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4c35d0c5a964680b264220350b4459
+      internalID: 173067168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_186
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f877c003a46c4f82879a0d9afca2689
+      internalID: -117528882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_187
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44292d269ffd40b29fab94bdb3c814f
+      internalID: -916828902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_188
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c25ec921f42a4d1a917be870eea2392
+      internalID: -2121099083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_189
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74301a6fb76d749bcb54ac5e84a4e5bf
+      internalID: -1842970908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_190
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0a82cdc291244b08a00d776e5ec896
+      internalID: 1940366873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_191
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27c86db0055f434488465562a165506
+      internalID: -555681639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_192
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fd5690fa92e481cae4cc6c552abe61
+      internalID: -1691360523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_193
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 394
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396fc1a25301d4780836eb14b82e33ca
+      internalID: -376246503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcb5c5c27d7341d98a4511e40822543
+      internalID: -1870780363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_195
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4286b4f7ae53476987a5b4dd317cb14
+      internalID: -1916131580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_196
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c726c3a437b6d4dedaecf9ada566b4df
+      internalID: 1561622748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_197
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4922ee4d35f9e45489d0186670d51f27
+      internalID: -138746416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_198
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91677e508d1c240daa5dbd326997a25a
+      internalID: 1560166689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_199
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9ab5fa2453f41fe91806984291d097
+      internalID: -1803943252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_200
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081dcf6f665694f27b48d82500a74d12
+      internalID: -689103163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_201
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431ccc721136641db9e314d54f407bc1
+      internalID: -1988164138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_202
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d69e5986d49494291ea0d60329fbb9
+      internalID: -398601814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_203
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff186a0ec52574054b9222613bb03db7
+      internalID: -367049128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_204
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d22a0d5e3bc43c5b6747d1e93934bc
+      internalID: 985987576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_205
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c73f26f43294f4e9d7f5d5e01609da
+      internalID: -824407618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_206
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c6fdac3ebe44745bbbfc947dbdea73
+      internalID: -873722273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_207
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f586836f20e2349c48537a11258ae196
+      internalID: 2136796567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_208
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c614c94d3ef45b8a35cdf75fb55d1a
+      internalID: -1428149154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_209
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2310e5a354f474ca492870bce0ce1f87
+      internalID: 1654101541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_210
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3ed5d1e6ed049f4a9d1fbd91f75741
+      internalID: -335541155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_211
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a5f758cda64df389b89821e77c107
+      internalID: 834343813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_212
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 360
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8958e30c9e0264df6a0a02f1bea68c7b
+      internalID: 1139354260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1809e6fa22dea4b1a982930bd3cbc9a6
+      internalID: 251962520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_214
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7287eb7f3061649db89ac6624a720676
+      internalID: 317381459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_215
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df31bc52a66ae41f6b869dc00aff9760
+      internalID: -1941964275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_216
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cbdde4993c4490793290ec277c7524
+      internalID: 1793831958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_217
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fd2c71d987f455b8c7a6bb1c3e3404
+      internalID: 338500623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_218
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c1135011434b83ae87e96ab1f24ce
+      internalID: 396396632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_219
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed913ab3951ed44d09ed59104de7e280
+      internalID: 1109982195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_220
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc6b7aa0d6644e9da6c9a987830f146
+      internalID: -843519218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_221
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38fb47d941764b76b18d6c7ed494104
+      internalID: -1591051030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_222
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ab12f451d5d4722b7b4bd26f3eb14c
+      internalID: 1656289595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_223
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad55964bccb647cba969ad1804ef5c8
+      internalID: 893487828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_224
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f95836a15d504961b94bd28417a3f88
+      internalID: 750794949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_225
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65056a6669bde4b1c8a4adca21c96ad9
+      internalID: 1208332358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_226
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f519174ed90f4521b8938d405ab61f9
+      internalID: 1968412045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_227
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2843f3fa2667549b682e147ec754f7f2
+      internalID: 611648250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_228
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d521e1ec4e24f38bdb685a0009bd9c
+      internalID: 1097627386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_229
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572248b885e2c4c90a8d14a0784c52c6
+      internalID: -2063478090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_230
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cfe9356124c42adb685f6c973ea6ba
+      internalID: -411435137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_231
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc93248d1646469c8f15c01f9eaddbe
+      internalID: -840279606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccf688658549497484c59890e8abfbe
+      internalID: 1630354827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_233
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290ef691461ae4f78a6d1ddb9d02f157
+      internalID: -599109537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_234
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87f2612f411348baa20dc54cf64b30e
+      internalID: 1298271944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_235
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f31d7ab4b6472b92e0eb8edae0852
+      internalID: -1575147847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_236
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164411390a39e4687b028d3de175a5dd
+      internalID: -2069848872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_237
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8fe47ffa67b41058d01d8a33c056ef
+      internalID: 1973289965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_238
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec5916668d1040f088385eb296d78ac
+      internalID: 1729496379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_239
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4ed3ea9e7884aefa4c1107fd04c7d4
+      internalID: 250359776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_240
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dd4dd23c1064729b132918c00de091
+      internalID: 342586240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_241
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0994d210ff1a94d26bf59f96519e1e47
+      internalID: 2074620996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_242
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e5e4e641475497ba9e81cdfd16552b
+      internalID: 518031764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_243
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a7999e6d1d4c2ca601d1adf5ade76
+      internalID: 2067302612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_244
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fc6593bf8b0426db2111a0f1d0481b
+      internalID: -573956728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_245
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dd4cb2f870a41148c45c2534f6429c
+      internalID: 1598690051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_246
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ae2b628ae7a4a89a3e19ed38bc50bf
+      internalID: 1271693015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_247
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277915ce35ecb400d9e1dddf29241af9
+      internalID: 1880583274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_248
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5f54d2394af430cb8d3b77f769e476
+      internalID: 1107831202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_249
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2eb5203ebb6f451c91084b6c1978287
+      internalID: 1702621623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_250
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 292
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5047879819024bdc9a8d65374242328
+      internalID: -1293114047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_251
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1f20b79892a410cbca3445bc37d1e7
+      internalID: -1402688580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_252
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40bb8e8867644a908aa16e12c2cd594
+      internalID: -1901269896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_253
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e488da72e7c9b4949b784509f2a98032
+      internalID: 522049714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_254
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559539fb929fe4576b428337618444b7
+      internalID: -80165824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_255
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f99716ae1094dd1a819e55fddb0726
+      internalID: -585630357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_256
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f205b61b91a0f46fd8176d482e12241e
+      internalID: 313371729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_257
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026028e1c43a646abade78c7fb7a5574
+      internalID: -1296970412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_258
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f137da62f6e834faca09ad14fa200308
+      internalID: 116833999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_259
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffbd8d733cf44edeb86d52e0eab9b44
+      internalID: 997183037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_260
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a867d697acc4f128c202267ab2d864
+      internalID: 707397349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_261
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b009d42149509431aa6281d2a2b3aaf6
+      internalID: 1503203035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_262
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8dd1073d1df42829414cc2f9a2c7f8
+      internalID: 1307844150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_263
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade305e8a68474303840105d16885c77
+      internalID: 930467390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_264
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2ca3160408a4797aae8ba24389e9fd
+      internalID: 991408145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_265
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaa2e5d06fb541e48d6b9140b37aa98
+      internalID: -1977044330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_266
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3eb34afeb534b29880e07b62546919
+      internalID: -727494327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_267
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61b0af8802c6437489dc64e85698400
+      internalID: 1280711927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_268
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebe6c51808874c6dba5512510e3dadb
+      internalID: -614290788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_269
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69097f7200fe94924b069780693c0ad2
+      internalID: -652290148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa425f92509ac4f9b96459fb998a0986
+      internalID: -639549831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_271
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d08f8ac1b974eb4a0325f4b21e6729
+      internalID: -1319324036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_272
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d1f35f84137422a866c5bc69d177a2
+      internalID: 998935248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_273
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45000e020098e4d2fb4e9a47d405aa74
+      internalID: -1698466174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_274
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d1719496d7465497caf7bcb5b0dbf
+      internalID: 1699308363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_275
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e793cf8083b00492a927f5fb29c66d7e
+      internalID: -2094638018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_276
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfd48830894044e6b24e15da24decd6
+      internalID: -1785306493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_277
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594d06a1b7a044dc09c61b317e4aec17
+      internalID: 1034204333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_278
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf9ba1ac23c42e68e766e326122791
+      internalID: 28707985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_279
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb265d3b6ebc45568cdde87bf75d6c6
+      internalID: 300032469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_280
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249d08f1b6d294c079143694e5d0f1ae
+      internalID: -2128883396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_281
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef44c238597484098ab6000e0bcb082a
+      internalID: 1346876099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_282
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754285c3909bb45a085db9f7c43c221b
+      internalID: -1716276994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_283
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a299fff9ddb4085a34557eb5190848
+      internalID: -1244252257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_284
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc1a4ed099924aab8b769e48e363cd3
+      internalID: 1424284742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_285
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f68e86e2a4d46a389a2298fe5dde43
+      internalID: 1044681335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_286
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ae1ce13ce5d481ab2cf637b3968839
+      internalID: 219097075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_287
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e8b6b9add7d46e7ae9631a94301ad7
+      internalID: 1013813800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_288
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3206df18ed0f439585a0f0166ab75b8
+      internalID: -1946738255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_289
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51de855e94014e958445f9bb21b8913
+      internalID: 950843735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_290
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 224
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c195288855a34114bd8bd4e89f2f488
+      internalID: 1938634159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_291
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33d828ba94f94abd867df6536caa3c4
+      internalID: -1744227102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_292
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0ef1cf853584cc9850bfd436c9231a
+      internalID: 964090610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_293
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac3c626b382f4e089315bf29e46e32f
+      internalID: 254347506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_294
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e694ba41ffdca48f9ba116b6b866f62f
+      internalID: -1793907721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_295
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10bf7ab0432249b8b4d1999f41925c7
+      internalID: 415268620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_296
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51086ca387059402cb3bcebb6d3a95ee
+      internalID: 1459955843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_297
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f52a74c4dc49b6af56c5f228fac5e
+      internalID: 849513370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_298
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4169b92da72644d78a03d891e1f49503
+      internalID: 323478120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_299
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4f34e735b654e929d6d434233e161b
+      internalID: -375566617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_300
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a0d287b52a49608986bece07f705f
+      internalID: 1186753244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_301
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd19ff0c7792465185dd82eeb8c34c4
+      internalID: -458260020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_302
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8f60a7cbd3742a8b25ff1f3f5db737
+      internalID: 315010889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_303
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e54d7ca00e604b8e833d9cd185e7c77
+      internalID: 1006513990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_304
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba5de77c2454aa99bc07fd89b85e3f
+      internalID: -1947010073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_305
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9b75be72afd474791423abc11deef5
+      internalID: 460514174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_306
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68248f8026c04420a888593fb212bd19
+      internalID: -2033747051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_307
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f10e293f3ec432980da095fa96aab4
+      internalID: 839319557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_308
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bb21a8608464681a0366c63e046122
+      internalID: -1705395088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_309
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10f1455a05eb46d58e0c5280c070ac7
+      internalID: 138722181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_310
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 190
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a076d78b2244a988909175520cf9b3
+      internalID: 1856199872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_311
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d82f289f9b470e91afd807aed0c1e
+      internalID: -1124579097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_312
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147be30a31bb48caabd7b6d44aa529e
+      internalID: 1286077528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_313
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7e1607a12ce4068acc6d8301d1f9d0
+      internalID: -10422825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_314
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76efcb91c6e4433e9d280496d980fa7
+      internalID: -1158978862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_315
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928dadd4a28c446a1a98a6c1cc6a2e37
+      internalID: 1385523878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_316
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0327fdd5925d47248a4245da517b7f6
+      internalID: -962400963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_317
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e02402967074a25a90ede7e197a019
+      internalID: 1094754190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_318
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2c3d1b97e704f9785f6026168cb54a
+      internalID: 2109778171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_319
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d083c000f62440fa91c5f380d6fd6e
+      internalID: 1970876175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_320
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3624a7144cb646f29e2f8bb6aca204c
+      internalID: -1495320294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_321
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334253e9173cf42a399a565da93a74c7
+      internalID: -1081887869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_322
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bb443ffbb974b579210de9f969f5ad
+      internalID: 1546906026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_323
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a181a78735e4874ba43c3ea710365a
+      internalID: 70992928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_324
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6498e6096d1b64f66aecaeebd6517f2f
+      internalID: -1891130581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_325
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd2b8106cf0e45a29ef8f3cfbcded54
+      internalID: 833071310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_326
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b39e338024d4cb4b75eab7a023c222
+      internalID: -1647266561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_327
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccaa431068c149d3a0a5e525a3313e7
+      internalID: 1459792497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_328
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 156
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886e025e276b841639196f11ea38c039
+      internalID: -895386013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_329
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7e79c5af32c447f83ad11a4f3170b5
+      internalID: -1141544818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_330
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfa074ac907b4dc3bd86b772ab5d44f
+      internalID: -1834604798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_331
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce9252c6ca154aada888213a65c88c5
+      internalID: -2083129106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_332
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9464ad77964b49afa32ff7f0297f487
+      internalID: -1493327626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_333
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebf665b751c04600855e415a707c486
+      internalID: -526127946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_334
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4c0cf27beca48bcbd4714a62d72f23
+      internalID: 1035299228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_335
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac570c274152b469890a72cd75f8ea9c
+      internalID: 2010543193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_336
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b060128373c4d23b0cd6750dd1ce3c
+      internalID: 1046153643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_337
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3fa8921c22942b1a6c556c3898e7bd
+      internalID: -820660715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_338
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1a38fb267f8464b895b9079e726ced
+      internalID: -1049053301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_339
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027410d29b2ae4ebcb52d30a889c2530
+      internalID: -177714899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_340
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1116166d659476daadbdc5edb89158
+      internalID: -1778622747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_341
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dc893a922aa47ff8004417e53c7cd4
+      internalID: -2028463290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_342
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ccb899d2be43af9b1d70025b1964b
+      internalID: 327791999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_343
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ebcff213aa84ba7a0f56521b6fe255
+      internalID: 294797470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_344
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9228b244ba8124a75a2f389e663a48c5
+      internalID: 1646181697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_345
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b8078316bbe49a49600ab1d38bc9d2
+      internalID: 1515518303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_346
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d232e18357224905996ded11a0cb601
+      internalID: 931011563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_347
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d9c224a944043868f8b5409eb3908e
+      internalID: -973533163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_348
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7c69ee2046f4483b9399faf18480bc
+      internalID: 1198898276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_349
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e38c134fcb451a958affec9425978
+      internalID: 1037213801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_350
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e785d5a01764c4183385d93b0b6d56
+      internalID: 1590525441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_351
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14be14fc41fd043c7a3986b65ce80d3b
+      internalID: -1299863169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_352
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97702298e8fbf4be6ae5c57abe86b16d
+      internalID: -1898517986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_353
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ed505ce74a648e285c271790606ba6
+      internalID: -613403191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_354
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc158ea50d6e41b49d4b3254db40a1b
+      internalID: 1546188378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_355
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74949f59e91c34d06af69f13a3f2de7c
+      internalID: 1094274561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_356
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2639b97e1c73e4f948197433002d4b1b
+      internalID: 440168511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_357
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235eb5c3df30649adae08b155b6aa6fe
+      internalID: -1211589797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_358
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c08f7a7b0244920a0165135616e3d7
+      internalID: 1512424944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_359
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9a20443b167482aa4496c16b951289
+      internalID: 380803112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_360
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e22c837623e4a5da274e0dc2e5a041
+      internalID: 1321071919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_361
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9aeff3547af4860a93ba03ee991328
+      internalID: -1414141419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_362
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62d4343bab1547158daa48c212bfa37
+      internalID: -1164600990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_363
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8a944ea3f9f402dbc96c9c5e1a47dc
+      internalID: -955612369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shir_364
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efee6092650fd40289814e05eef546a8
+      internalID: 1344868262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: acd2b4f6b4e8d7b4b98a82a327430879
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shir_0: -1680274530
+      Shir_1: -528189046
+      Shir_10: 97809289
+      Shir_100: 971761093
+      Shir_101: 1167149772
+      Shir_102: -525339716
+      Shir_103: 374904192
+      Shir_104: 66621024
+      Shir_105: 812814320
+      Shir_106: 638717239
+      Shir_107: -793037351
+      Shir_108: 1359882686
+      Shir_109: 2049814568
+      Shir_11: -1475111393
+      Shir_110: 1461158312
+      Shir_111: 634890276
+      Shir_112: -1105772670
+      Shir_113: -1328079184
+      Shir_114: 371433228
+      Shir_115: 1166788769
+      Shir_116: 1675088671
+      Shir_117: 1196731912
+      Shir_118: -464164801
+      Shir_119: -1839933089
+      Shir_12: -606731528
+      Shir_120: -2110867685
+      Shir_121: 842458321
+      Shir_122: -2096208674
+      Shir_123: 2027312954
+      Shir_124: -174678856
+      Shir_125: -1878073166
+      Shir_126: 747793867
+      Shir_127: 930096293
+      Shir_128: -1813105462
+      Shir_129: 485576313
+      Shir_13: 1226049663
+      Shir_130: 1015273864
+      Shir_131: 2061374993
+      Shir_132: 253251528
+      Shir_133: -1647862652
+      Shir_134: -279706371
+      Shir_135: -173393864
+      Shir_136: 1758918065
+      Shir_137: -1761437966
+      Shir_138: 1584438993
+      Shir_139: 1266922403
+      Shir_14: 1762555766
+      Shir_140: 2134735359
+      Shir_141: 1768124196
+      Shir_142: -1928207931
+      Shir_143: 1579028666
+      Shir_144: 505944504
+      Shir_145: 50365540
+      Shir_146: 226409726
+      Shir_147: 1882360431
+      Shir_148: -1589038653
+      Shir_149: -935767429
+      Shir_15: 816758593
+      Shir_150: -254533478
+      Shir_151: -735190678
+      Shir_152: -458640117
+      Shir_153: -42644268
+      Shir_154: 1751619960
+      Shir_155: 1199469354
+      Shir_156: 824099410
+      Shir_157: 691810780
+      Shir_158: 1920575071
+      Shir_159: 1376244583
+      Shir_16: -981564884
+      Shir_160: -1976937618
+      Shir_161: 1461086466
+      Shir_162: 934113246
+      Shir_163: -2022196798
+      Shir_164: 458336030
+      Shir_165: 2143879328
+      Shir_166: -1304259911
+      Shir_167: 1618340629
+      Shir_168: 1179437270
+      Shir_169: -570630073
+      Shir_17: 248808003
+      Shir_170: -122634652
+      Shir_171: 791904180
+      Shir_172: -933551247
+      Shir_173: 1898494191
+      Shir_174: -482723195
+      Shir_175: 1365491550
+      Shir_176: 1963393409
+      Shir_177: -855509013
+      Shir_178: -2034895967
+      Shir_179: -581327062
+      Shir_18: -1108371448
+      Shir_180: 2014638202
+      Shir_181: 2057324298
+      Shir_182: 2021716958
+      Shir_183: -2057577542
+      Shir_184: -2094393724
+      Shir_185: 173067168
+      Shir_186: -117528882
+      Shir_187: -916828902
+      Shir_188: -2121099083
+      Shir_189: -1842970908
+      Shir_19: 1507702687
+      Shir_190: 1940366873
+      Shir_191: -555681639
+      Shir_192: -1691360523
+      Shir_193: -376246503
+      Shir_194: -1870780363
+      Shir_195: -1916131580
+      Shir_196: 1561622748
+      Shir_197: -138746416
+      Shir_198: 1560166689
+      Shir_199: -1803943252
+      Shir_2: -10841754
+      Shir_20: -1905186175
+      Shir_200: -689103163
+      Shir_201: -1988164138
+      Shir_202: -398601814
+      Shir_203: -367049128
+      Shir_204: 985987576
+      Shir_205: -824407618
+      Shir_206: -873722273
+      Shir_207: 2136796567
+      Shir_208: -1428149154
+      Shir_209: 1654101541
+      Shir_21: -712840883
+      Shir_210: -335541155
+      Shir_211: 834343813
+      Shir_212: 1139354260
+      Shir_213: 251962520
+      Shir_214: 317381459
+      Shir_215: -1941964275
+      Shir_216: 1793831958
+      Shir_217: 338500623
+      Shir_218: 396396632
+      Shir_219: 1109982195
+      Shir_22: 2147336400
+      Shir_220: -843519218
+      Shir_221: -1591051030
+      Shir_222: 1656289595
+      Shir_223: 893487828
+      Shir_224: 750794949
+      Shir_225: 1208332358
+      Shir_226: 1968412045
+      Shir_227: 611648250
+      Shir_228: 1097627386
+      Shir_229: -2063478090
+      Shir_23: -820726024
+      Shir_230: -411435137
+      Shir_231: -840279606
+      Shir_232: 1630354827
+      Shir_233: -599109537
+      Shir_234: 1298271944
+      Shir_235: -1575147847
+      Shir_236: -2069848872
+      Shir_237: 1973289965
+      Shir_238: 1729496379
+      Shir_239: 250359776
+      Shir_24: 850228669
+      Shir_240: 342586240
+      Shir_241: 2074620996
+      Shir_242: 518031764
+      Shir_243: 2067302612
+      Shir_244: -573956728
+      Shir_245: 1598690051
+      Shir_246: 1271693015
+      Shir_247: 1880583274
+      Shir_248: 1107831202
+      Shir_249: 1702621623
+      Shir_25: -1720487010
+      Shir_250: -1293114047
+      Shir_251: -1402688580
+      Shir_252: -1901269896
+      Shir_253: 522049714
+      Shir_254: -80165824
+      Shir_255: -585630357
+      Shir_256: 313371729
+      Shir_257: -1296970412
+      Shir_258: 116833999
+      Shir_259: 997183037
+      Shir_26: -1308272224
+      Shir_260: 707397349
+      Shir_261: 1503203035
+      Shir_262: 1307844150
+      Shir_263: 930467390
+      Shir_264: 991408145
+      Shir_265: -1977044330
+      Shir_266: -727494327
+      Shir_267: 1280711927
+      Shir_268: -614290788
+      Shir_269: -652290148
+      Shir_27: 737099894
+      Shir_270: -639549831
+      Shir_271: -1319324036
+      Shir_272: 998935248
+      Shir_273: -1698466174
+      Shir_274: 1699308363
+      Shir_275: -2094638018
+      Shir_276: -1785306493
+      Shir_277: 1034204333
+      Shir_278: 28707985
+      Shir_279: 300032469
+      Shir_28: -1804422193
+      Shir_280: -2128883396
+      Shir_281: 1346876099
+      Shir_282: -1716276994
+      Shir_283: -1244252257
+      Shir_284: 1424284742
+      Shir_285: 1044681335
+      Shir_286: 219097075
+      Shir_287: 1013813800
+      Shir_288: -1946738255
+      Shir_289: 950843735
+      Shir_29: 357088060
+      Shir_290: 1938634159
+      Shir_291: -1744227102
+      Shir_292: 964090610
+      Shir_293: 254347506
+      Shir_294: -1793907721
+      Shir_295: 415268620
+      Shir_296: 1459955843
+      Shir_297: 849513370
+      Shir_298: 323478120
+      Shir_299: -375566617
+      Shir_3: -2120363198
+      Shir_30: -1066573397
+      Shir_300: 1186753244
+      Shir_301: -458260020
+      Shir_302: 315010889
+      Shir_303: 1006513990
+      Shir_304: -1947010073
+      Shir_305: 460514174
+      Shir_306: -2033747051
+      Shir_307: 839319557
+      Shir_308: -1705395088
+      Shir_309: 138722181
+      Shir_31: 1095753193
+      Shir_310: 1856199872
+      Shir_311: -1124579097
+      Shir_312: 1286077528
+      Shir_313: -10422825
+      Shir_314: -1158978862
+      Shir_315: 1385523878
+      Shir_316: -962400963
+      Shir_317: 1094754190
+      Shir_318: 2109778171
+      Shir_319: 1970876175
+      Shir_32: -87687318
+      Shir_320: -1495320294
+      Shir_321: -1081887869
+      Shir_322: 1546906026
+      Shir_323: 70992928
+      Shir_324: -1891130581
+      Shir_325: 833071310
+      Shir_326: -1647266561
+      Shir_327: 1459792497
+      Shir_328: -895386013
+      Shir_329: -1141544818
+      Shir_33: 1309260747
+      Shir_330: -1834604798
+      Shir_331: -2083129106
+      Shir_332: -1493327626
+      Shir_333: -526127946
+      Shir_334: 1035299228
+      Shir_335: 2010543193
+      Shir_336: 1046153643
+      Shir_337: -820660715
+      Shir_338: -1049053301
+      Shir_339: -177714899
+      Shir_34: -679695047
+      Shir_340: -1778622747
+      Shir_341: -2028463290
+      Shir_342: 327791999
+      Shir_343: 294797470
+      Shir_344: 1646181697
+      Shir_345: 1515518303
+      Shir_346: 931011563
+      Shir_347: -973533163
+      Shir_348: 1198898276
+      Shir_349: 1037213801
+      Shir_35: 1516522316
+      Shir_350: 1590525441
+      Shir_351: -1299863169
+      Shir_352: -1898517986
+      Shir_353: -613403191
+      Shir_354: 1546188378
+      Shir_355: 1094274561
+      Shir_356: 440168511
+      Shir_357: -1211589797
+      Shir_358: 1512424944
+      Shir_359: 380803112
+      Shir_36: -364641077
+      Shir_360: 1321071919
+      Shir_361: -1414141419
+      Shir_362: -1164600990
+      Shir_363: -955612369
+      Shir_364: 1344868262
+      Shir_37: -108189130
+      Shir_38: 1568198124
+      Shir_39: -1153438247
+      Shir_4: 110750090
+      Shir_40: 1717887216
+      Shir_41: 1230820755
+      Shir_42: -1048526758
+      Shir_43: 968529516
+      Shir_44: -805193332
+      Shir_45: 956530569
+      Shir_46: 500220006
+      Shir_47: 1789970575
+      Shir_48: 1712022166
+      Shir_49: -422739368
+      Shir_5: 281575608
+      Shir_50: 1817572710
+      Shir_51: 56845400
+      Shir_52: 665504623
+      Shir_53: -1646489036
+      Shir_54: -1093039822
+      Shir_55: 1391238861
+      Shir_56: 31612430
+      Shir_57: -1352703954
+      Shir_58: 280390029
+      Shir_59: 331608408
+      Shir_6: 1047612234
+      Shir_60: 2063971971
+      Shir_61: -631900021
+      Shir_62: -1849444288
+      Shir_63: 1591234124
+      Shir_64: 1976839990
+      Shir_65: 1312829263
+      Shir_66: -1188701954
+      Shir_67: 408249936
+      Shir_68: 456528961
+      Shir_69: -310633174
+      Shir_7: 1588878887
+      Shir_70: -539445303
+      Shir_71: 1499072980
+      Shir_72: -908418227
+      Shir_73: 1432279603
+      Shir_74: -54373937
+      Shir_75: 1964731466
+      Shir_76: 1928335697
+      Shir_77: 1535677038
+      Shir_78: 269100640
+      Shir_79: 2025418462
+      Shir_8: 1958611327
+      Shir_80: 1601588160
+      Shir_81: 1097755718
+      Shir_82: -183325673
+      Shir_83: 216813896
+      Shir_84: 2117855764
+      Shir_85: 950735691
+      Shir_86: 821821205
+      Shir_87: -855286929
+      Shir_88: -961522368
+      Shir_89: -2127400063
+      Shir_9: 1860336712
+      Shir_90: 2075093426
+      Shir_91: -1509741914
+      Shir_92: 1890802691
+      Shir_93: -1988086435
+      Shir_94: 764690691
+      Shir_95: 437785841
+      Shir_96: -1201252549
+      Shir_97: 1146368734
+      Shir_98: 1594247771
+      Shir_99: -1652507281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
