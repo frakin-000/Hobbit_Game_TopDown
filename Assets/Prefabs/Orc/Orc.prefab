@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2869122423582866265}
   - component: {fileID: 7773622176437856294}
   - component: {fileID: 4371993565639309705}
+  - component: {fileID: 7554641706348653076}
   m_Layer: 0
   m_Name: OrcVisual
   m_TagString: Untagged
@@ -110,6 +111,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7554641706348653076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373393738340960782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92e4bfe3b10fbd4d9d64ac0e1dab6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyAi: {fileID: 4686216192419041807}
+  enemyEntity: {fileID: 7815348062966368218}
 --- !u!1 &6616571208262870465
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,8 +136,10 @@ GameObject:
   - component: {fileID: 4524946928888418222}
   - component: {fileID: 4521438961445908796}
   - component: {fileID: 4758488351407399649}
+  - component: {fileID: 4392638324035287945}
   - component: {fileID: 7495140766947662652}
   - component: {fileID: 4686216192419041807}
+  - component: {fileID: 7815348062966368218}
   m_Layer: 0
   m_Name: Orc
   m_TagString: Untagged
@@ -210,6 +227,72 @@ CapsuleCollider2D:
   m_Offset: {x: -0.06587153, y: 0.34765014}
   m_Size: {x: 0.8170306, y: 0.8170306}
   m_Direction: 1
+--- !u!60 &4392638324035287945
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616571208262870465}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.912858, y: 0.975104}
+      - {x: 0.67412424, y: 1.1339662}
+      - {x: 0.30618286, y: 1.267644}
+      - {x: 0.16517925, y: 1.2201927}
+      - {x: 0.16851234, y: 1.1197764}
+      - {x: 0.22700548, y: 0.9649641}
+      - {x: 0.45833588, y: 0.6343796}
+      - {x: 0.48367834, y: 0.37371582}
+      - {x: 0.34535885, y: 0.22759497}
+      - {x: 0.8607836, y: 0.15921718}
+      - {x: 0.8248667, y: 0.08495191}
+      - {x: 0.7566052, y: -0.004042506}
+      - {x: 0.62330437, y: -0.18950939}
+      - {x: 0.75108767, y: -0.3626325}
+      - {x: 0.86867285, y: -0.41599584}
+      - {x: 1.140769, y: -0.41250348}
+      - {x: 1.3118138, y: -0.24627459}
+      - {x: 1.3678638, y: -0.004042387}
+      - {x: 1.3079004, y: 0.43349773}
+  m_UseDelaunayMesh: 0
 --- !u!195 &7495140766947662652
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -248,3 +331,15 @@ MonoBehaviour:
   roamingDistanceMin: 3
   roamingTimeMax: 2
   startingState: 1
+--- !u!114 &7815348062966368218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616571208262870465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1119764f45e02294ebe64f8fd4b67a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
