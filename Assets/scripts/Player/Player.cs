@@ -10,6 +10,17 @@ public class Player : MonoBehaviour
     private bool isRunning = false;
     Vector2 inputVector;
 
+
+    public void Start()
+    {
+        GameInput.Instance.OnPlayerAttack += Player_OnPlayerAttack;
+    }
+
+    private void Player_OnPlayerAttack(object sender, System.EventArgs e)
+    {
+        
+    }
+
     private void Awake()
     {
         Instance = this;

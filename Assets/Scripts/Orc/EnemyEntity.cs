@@ -3,9 +3,12 @@ using UnityEngine;
 
 public class EnemyEntity : MonoBehaviour
 {
-    private int maxHealth;
+    private int maxHealth=100;
     private int currentHealth;
+
     private PolygonCollider2D pollygonCollider2D;
+    private BoxCollider2D boxCollider2D;
+    private EnemyAi enemyAi;
 
     public event EventHandler OnTakeHit;
     public event EventHandler OnDeath;
@@ -13,6 +16,8 @@ public class EnemyEntity : MonoBehaviour
     private void Awake()
     {
         pollygonCollider2D = GetComponent<PolygonCollider2D>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
+        enemyAi = GetComponent<EnemyAi>();
     }
     private void Start()
     {
@@ -23,13 +28,19 @@ public class EnemyEntity : MonoBehaviour
     {
         currentHealth -= damage;
         OnTakeHit?.Invoke(this, EventArgs.Empty);
-        
+
         DetectDeath();
     }
     private void DetectDeath()
     {
         if (currentHealth <= 0)
+        {
+            boxCollider2D.enabled = false;
+            pollygonCollider2D.enabled = false;
+            enemyAi.SetDeathState();
             OnDeath?.Invoke(this, EventArgs.Empty);
+
+        }
     }
 
     public void PolygonColliderTurnOff()

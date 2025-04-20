@@ -60,18 +60,24 @@ public class EnemyAi : MonoBehaviour
         MovementDirectionHandler();
     }
 
+    public void SetDeathState()
+    {
+        navMeshAgent.ResetPath();
+        currentState = State.Death;
+    }
     private void StateHandler()
     {
         switch (currentState)
         {
             case State.Roaming:
-                CheckCurrentState();
+
                 roamingTimer -= Time.deltaTime;
                 if (roamingTimer < 0)
                 {
                     Roaming();
                     roamingTimer = roamingTimeMax;
                 }
+                CheckCurrentState();
                 break;
 
             case State.Chasing:
