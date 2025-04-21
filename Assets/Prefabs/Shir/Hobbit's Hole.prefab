@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381209964511337383}
   - component: {fileID: 7755927391536744945}
+  - component: {fileID: 7558765445651338339}
   m_Layer: 0
   m_Name: Hobbit's Hole
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 3466282983024702049}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.2, y: 68.75, z: 0}
+  m_LocalPosition: {x: 28.08, y: 68.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -87,3 +88,77 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &7558765445651338339
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3466282983024702049}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5078801, y: 0.22419798}
+    oldSize: {x: 7, y: 3}
+    newSize: {x: 14.875, y: 6.375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.2964458, y: 1.1786499}
+      - {x: 0.64580727, y: 1.4964218}
+      - {x: -0.11265564, y: 1.5193634}
+      - {x: -1.0006561, y: 1.3541565}
+      - {x: -1.8114398, y: 1.1372435}
+      - {x: -2.8078518, y: 0.57484436}
+      - {x: -2.9107494, y: -0.10523987}
+      - {x: -2.4685917, y: -0.25205994}
+      - {x: -1.6340427, y: -0.33389282}
+      - {x: -0.8031311, y: -0.35895538}
+      - {x: -0.93826294, y: -0.05859375}
+      - {x: -0.7374344, y: 0.043655396}
+      - {x: -0.6383705, y: 0.099357605}
+      - {x: -0.491642, y: 0.061080933}
+      - {x: -0.37680054, y: 0.112083435}
+      - {x: -0.22930908, y: 0.1953888}
+      - {x: -0.11942291, y: 0.18186188}
+      - {x: 0.05901146, y: 0.16144562}
+      - {x: 0.36129165, y: 0.11623967}
+      - {x: 0.63739586, y: 0.006843567}
+      - {x: 0.9308624, y: 0.27431488}
+      - {x: 0.7591171, y: -0.36359406}
+      - {x: 1.1681709, y: -0.34179688}
+      - {x: 2.193987, y: -0.2772293}
+      - {x: 3.044798, y: -0.10839081}
+      - {x: 3.0296686, y: 0.1577512}
+      - {x: 2.2961977, y: 0.9988539}
+  m_UseDelaunayMesh: 0
