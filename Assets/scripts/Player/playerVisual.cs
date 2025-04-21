@@ -4,6 +4,7 @@ public class playerVisual : MonoBehaviour
 {
     private Animator animator;
     private const string IS_RUNNING = "IsRunning";
+    private const string IsAttack = "IsAttac";
     private SpriteRenderer spriteRenderer;
 
     private void Awake()

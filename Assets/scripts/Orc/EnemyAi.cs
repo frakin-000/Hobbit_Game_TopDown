@@ -106,7 +106,6 @@ public class EnemyAi : MonoBehaviour
     }
     private void CheckCurrentState()
     {
-        Debug.Log("Yes");
         var distanceToPlayer = Vector3.Distance(transform.position, Player.Instance.transform.position);
         var newState = State.Roaming;
         if (isChasingEnemy)

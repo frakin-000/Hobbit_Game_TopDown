@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 
     private void Player_OnPlayerAttack(object sender, System.EventArgs e)
     {
-        
+        Debug.Log("kdjsbgdksbvkjf");
     }
 
     private void Awake()
