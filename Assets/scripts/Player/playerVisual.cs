@@ -2,10 +2,37 @@ using UnityEngine;
 
 public class playerVisual : MonoBehaviour
 {
+    [SerializeField] private PlayerAttack playerAttack;
     private Animator animator;
+    //[SerializeField] private Player player;
     private const string IS_RUNNING = "IsRunning";
-    private const string IsAttack = "IsAttac";
+    private const string Attack = "Attack";
+    private const string IsDie = "IsDie";
+    private const string TakeHit = "TakeHit";
     private SpriteRenderer spriteRenderer;
+
+    private void Start()
+    {
+        playerAttack.OnSwordSwing += PlayerAttack_OnSwordSwing;
+        Player.Instance.OnPlayerTakeHit += Player_OnPlayerTakeHit;
+        Player.Instance.OnPlayerDeath += Player_OnPlayerDeath;
+
+    }
+
+    private void Player_OnPlayerDeath(object sender, System.EventArgs e)
+    {
+        animator.SetBool(IsDie, true);
+    }
+
+    private void Player_OnPlayerTakeHit(object sender, System.EventArgs e)
+    {
+        animator.SetTrigger(TakeHit);
+    }
+
+    private void PlayerAttack_OnSwordSwing(object sender, System.EventArgs e)
+    {
+        animator.SetTrigger(Attack);
+    }
 
     private void Awake()
     {
@@ -16,7 +43,8 @@ public class playerVisual : MonoBehaviour
     private void Update()
     {
         animator.SetBool(IS_RUNNING, Player.Instance.IsRunning());
-        AdjustPlayerFaceFlip();
+        if (Player.Instance.IsAlive())
+            AdjustPlayerFaceFlip();
     }
 
     private void AdjustPlayerFaceFlip()
@@ -28,5 +56,10 @@ public class playerVisual : MonoBehaviour
             spriteRenderer.flipX = true;
         else
             spriteRenderer.flipX = false;
+    }
+
+    public void TriggerEndAttackAnimation()
+    {
+        playerAttack.AttackColliderTurnOff();
     }
 }

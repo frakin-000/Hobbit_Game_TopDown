@@ -3,11 +3,13 @@ using UnityEngine;
 
 public class EnemyEntity : MonoBehaviour
 {
-    private int maxHealth=100;
+    [SerializeField] private int maxHealth=100;
+    [SerializeField] private int enemyDamage = 10;
     private int currentHealth;
 
     private PolygonCollider2D pollygonCollider2D;
     private BoxCollider2D boxCollider2D;
+    private CapsuleCollider2D capsuleCollider2D;
     private EnemyAi enemyAi;
 
     public event EventHandler OnTakeHit;
@@ -24,7 +26,13 @@ public class EnemyEntity : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    private void TakeDamage(int damage)
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.transform.TryGetComponent(out Player player))
+            player.TakeDamage(transform, enemyDamage);
+    }
+
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         OnTakeHit?.Invoke(this, EventArgs.Empty);
@@ -37,6 +45,7 @@ public class EnemyEntity : MonoBehaviour
         {
             boxCollider2D.enabled = false;
             pollygonCollider2D.enabled = false;
+
             enemyAi.SetDeathState();
             OnDeath?.Invoke(this, EventArgs.Empty);
 

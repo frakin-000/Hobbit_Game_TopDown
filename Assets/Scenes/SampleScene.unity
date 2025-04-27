@@ -254,7 +254,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1806113665297509106}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
@@ -622,17 +622,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 3055486924610796660, guid: 1d2c264113925054b8c861bc91521a6d, type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 519420032}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d2c264113925054b8c861bc91521a6d, type: 3}
---- !u!4 &1806113665297509106 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3055486924610796660, guid: 1d2c264113925054b8c861bc91521a6d, type: 3}
-  m_PrefabInstance: {fileID: 1806113665297509105}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6317229857742113308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -693,6 +685,10 @@ PrefabInstance:
       propertyPath: roamingTimeMax
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4758488351407399649, guid: 7e21975da01638a4e8021a7e56d01fdc, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6616571208262870465, guid: 7e21975da01638a4e8021a7e56d01fdc, type: 3}
       propertyPath: m_Name
       value: Orc
@@ -721,6 +717,7 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1806113665297509105}
   - {fileID: 905591892}
