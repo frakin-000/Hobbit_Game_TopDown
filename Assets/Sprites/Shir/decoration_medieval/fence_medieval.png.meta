@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,177 +110,6777 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldier-Walk_0
+      name: fence_medieval_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 100
-        height: 100
+        y: 990
+        width: 102
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b7d2d4e6fd23a97a0800000000000000
-      internalID: -6369722787752497797
+      spriteID: 48624411231e34bc784eef6ea08c5d45
+      internalID: -1588643009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier-Walk_1
+      name: fence_medieval_3
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 100
+        x: 102
+        y: 990
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3e0c2e21f8016c5c0800000000000000
-      internalID: -4195647796165820189
+      spriteID: 498ebc23e171c4365ba14a29e619ef89
+      internalID: 1825521877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier-Walk_2
+      name: fence_medieval_4
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 100
-        height: 100
+        x: 136
+        y: 990
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: feb45e3177c798a80800000000000000
-      internalID: -8464097173789389841
+      spriteID: 5ab0b70678e264199adaa2d65c95e607
+      internalID: -1996385890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier-Walk_3
+      name: fence_medieval_5
       rect:
         serializedVersion: 2
-        x: 300
-        y: 0
-        width: 100
-        height: 100
+        x: 170
+        y: 990
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d948c2d7b8311e040800000000000000
-      internalID: 4675039378008736925
+      spriteID: 67f972567a3ca46d2a9b53a7d7a4611b
+      internalID: -1062962810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier-Walk_4
+      name: fence_medieval_6
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 100
-        height: 100
+        x: 204
+        y: 990
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c11d9ab99c84a9770800000000000000
-      internalID: 8618280867664089372
+      spriteID: fb28958ffe9af41488c11ec8780201fa
+      internalID: -1568188717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier-Walk_5
+      name: fence_medieval_7
       rect:
         serializedVersion: 2
-        x: 500
-        y: 0
-        width: 100
-        height: 100
+        x: 238
+        y: 990
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca5fbe12e8db19a10800000000000000
-      internalID: 1914519734761289132
+      spriteID: 4703b75a119e24937949980c27042a9c
+      internalID: -561155236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier-Walk_6
+      name: fence_medieval_8
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 100
-        height: 100
+        x: 272
+        y: 990
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 387126345222e4890800000000000000
-      internalID: -7471997188321437821
+      spriteID: 61b8dfe1358524a2f9e096d36f8c4769
+      internalID: 1957994376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier-Walk_7
+      name: fence_medieval_9
       rect:
         serializedVersion: 2
-        x: 700
-        y: 0
-        width: 100
-        height: 100
+        x: 306
+        y: 990
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c74537a78827755e0800000000000000
-      internalID: -1920940785554729860
+      spriteID: 120230619a7c34561a34b6347bd6cbbb
+      internalID: 1925806630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 990
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf748ae7e3f7463a9befdc8ab7c813e
+      internalID: 993036012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_11
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 990
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdff0e7330294bbaa1e93ac94a65f72
+      internalID: -1671755209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 990
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bea9b8bb4124140a589e81f1c1c0a5
+      internalID: -60784418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_13
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 990
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c509c15392eb4e938ec6400f950f76f
+      internalID: -122157418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8386158922dbf4c488855e97542ffeef
+      internalID: 1733308855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e7710d07f034e57bbea083f6bf2af2
+      internalID: 1561169709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d59cf9212ac14fcf9d9480ed0b6b61b
+      internalID: -2017782732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914996ce720b54d5aad417dbd396613f
+      internalID: -1710951763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_18
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d37c81e37b84e5b88289355f55892a
+      internalID: -769342775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c24cf259bd8f46d1bd270848179553a
+      internalID: 393894940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270f9d4283b94966b48c9c8f1eec57e
+      internalID: 13194625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_21
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2594256f7da9740e78d4bd80d0f581e9
+      internalID: 5247051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0941e2983b85d49bea1cf192f04706f3
+      internalID: 1625978906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b927c3844428440bb860e81de0868f0
+      internalID: 1244363398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_24
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8392490b904e74a2b88882f9df54b648
+      internalID: 96956003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_25
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9ebf1c8ffbb4ca0aa284cfa4723a9a
+      internalID: -918363313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1149e8bfb10ec4103bacc48d275e328e
+      internalID: 1052537835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 956
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363dc117195c8488ba6c8449b7707a9c
+      internalID: 465997514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21950a8ba5bf42e48097982a7277ad5
+      internalID: -1967251769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447817e3748ed47d3ae89897454e04e0
+      internalID: 419576944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cdab7026ac94786879f6d122eb6d3a
+      internalID: 1550933077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b113dc17a294056877b7e992b3b598
+      internalID: 942324993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316262964b9ad42968d22807dc968fbb
+      internalID: -886164448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa99f4059cd44453a6c1ee18642abbf
+      internalID: -1421151762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcb155e014e542659ae2873b79f694d
+      internalID: 434190730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_35
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9af8d46bbbc4538b8883d41867e09c
+      internalID: -1558763249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_36
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f07fe0d2e3634f36834f65a95970eec
+      internalID: -452727313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_37
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d426ecb83139647ce92cf83837ec146b
+      internalID: -802867761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d31165ce99e4b6aa4394e6bc5e21e8
+      internalID: 733923213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_39
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c9058228f643d2993fe5ec290187e
+      internalID: -113239315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_40
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53304ad01dbec4b06b73e0d2fffc5297
+      internalID: 1051777569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_41
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 922
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfc7bd9807bc44a0920784532df58be
+      internalID: 1774200240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a26c2e0fea8545aaa211c703bfcd879
+      internalID: -1642750069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36355cb35d034bb38ae3da66279f50a
+      internalID: 1385697900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_44
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd5726770f2f405798b322b24c373ff
+      internalID: 1697414774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df9f3eeb77d54c2cba398bd91680a15
+      internalID: 14308654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f409ade956a09494f893907844f22ac0
+      internalID: -1366490263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_47
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1467ad64641c14278956c40b4584d2f3
+      internalID: -1883821313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38444df2f0c4940e89ee414607c645f8
+      internalID: -80678368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_49
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dace39417d4430a9fd39b29b2f4f5d
+      internalID: 2060012258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_50
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0c00e8d6594cfb8e748b88587240e
+      internalID: 1722585807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_51
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf1f08b58e26422b99a0b7089fc246d
+      internalID: 2083205812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_52
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a879c1b8531c4df48f6f51b07806634
+      internalID: -563433572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_53
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45c543392db441819e81f3301aba70b
+      internalID: -6406154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a544ad0342ad4a71b32047b30095cf4
+      internalID: 1703306636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_55
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 888
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755df76425bfc46bc9a7699308d5d4fa
+      internalID: 1081804325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297aef08455ba47ed9cfa2536009f592
+      internalID: -729614855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_57
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39a69f8219b34ae3a8797200c907a38
+      internalID: -1651132164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_58
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6fada0bd5c94456a02313a6b7f2550
+      internalID: 1963691333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_59
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76dd772347294ff9976656867e61898
+      internalID: 231476899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d4e67cbad7f4709bb61458cd2bf7da
+      internalID: 36111875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_61
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3932169726ea14008b3b6d288ccea73c
+      internalID: -194125091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79f07637e0be444bb438d793c3f22e7
+      internalID: -2025170655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_63
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe8c2e0c6cca42f8983d6340eb1ca8f
+      internalID: -1802887834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c4a25ca8c064022b1da622e29ca222
+      internalID: -1929293820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_65
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821207b78b87e4525b3eac9f9f36e927
+      internalID: 377101560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_66
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548ecb74d8ab04955803dcb811bafbd3
+      internalID: -86509484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_67
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6771eef28ba4c4d7188f088eac7cfda4
+      internalID: -898442871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_68
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c4333cb58814880af829c2978e4d15
+      internalID: -1764481603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_69
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 854
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3693823fce4204443867af4ac89bc9ce
+      internalID: 269438448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadf02ff4f3194b5ea9c7753274ddb4d
+      internalID: -740263373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3a740f0ffdd4bd0bc21079c047834b
+      internalID: -191084854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bec5b8cc7d6044f698b5ddaead911b4
+      internalID: -666340199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2fe6c25ddca4830926f8957c22276a
+      internalID: -517880615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2dc6d1e8b1d4a98a8ec357681e2eb8
+      internalID: -1223983621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_75
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c99b2803f5d490caa48ea88ee82246
+      internalID: 468738733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c16df372bdc499a92e1822e9c40795
+      internalID: 1006855637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_77
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164820ed3168d410bbf3f586accbb401
+      internalID: -1359394189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059913b3f40d74b25826376247973223
+      internalID: -376386390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_79
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28301c74389544ded8790d4d1b7c385b
+      internalID: -1368495079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_80
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0cb83edcb814d68b040f0b6f60220d
+      internalID: 1161494522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_81
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 820
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a00be74684347e7afbe029be92cc62
+      internalID: -2063123152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3353fbe8c8d14c8fa4b368671217de6
+      internalID: -1273474552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_83
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971c70c262924cbbb9d698eca2757c8
+      internalID: 14382520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_84
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ff2f1e709f4c66b1d9b0863ef0718
+      internalID: 257549960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_85
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcfc3b0455eb4e13a93f8e188a2f820
+      internalID: 183006346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_86
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e4e8de88674849a9ce9abfbcfd140
+      internalID: 1667075126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_87
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd7b24955f6d46d9bda2346fedc875e
+      internalID: -129886291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_88
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393b94348211b493eab01014e6c6d9f0
+      internalID: -1588869961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_89
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ec8c1044f514a92ac74463c217d4d3
+      internalID: 2130295969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_90
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b235b4382c24af49a9e3d3f0a9ccd2
+      internalID: -299938979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_91
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c648f0fd7e654cbca00a68edf55a30e
+      internalID: 532023928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_92
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5784340471dd3450ea15402288f1dc38
+      internalID: -2135730680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_93
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 786
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed696f59668c4edf8dd6c33d4d4ff0e
+      internalID: -438566273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bc8f2aec53e45f1b8cb7c2a93b6eb1
+      internalID: -420439768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_95
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d6289e6386141b28df6f137d0f82cb
+      internalID: 1041133278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_96
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd612f00449ae4ba9a46cd905bb3472d
+      internalID: 473693272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_97
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382ae949f4c1f4d1496f1b33939f1f95
+      internalID: -1728291819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465c2b71ae9fe4367b5c0f32b8593d83
+      internalID: -769575658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_99
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3ac62316ee2406ab186c86822de5af
+      internalID: 995926897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_100
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62058b6d04a974ae3b370f77ef4daee1
+      internalID: 1968793183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_101
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dd896894d574b6cbe6600b083e547d
+      internalID: -242912468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182af654bf32b46c6b38be357c4efbcc
+      internalID: -444059665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_103
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ecc8613f1fe4cd18aa95cd18021999
+      internalID: -1985603777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_104
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2809d5002174ca7bee6629e9518750
+      internalID: -324178062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_105
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 752
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a96db45a64194efdb65fa4a77c163e6
+      internalID: 490284328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adc962701ec3433d8cab9853ec06b9f
+      internalID: 647451858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_107
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8769f6c15e8064464a5d34965203f855
+      internalID: 1951121788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_108
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3bd73d3cda5444f848a60bbb2c9f4c
+      internalID: 178016820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_109
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3341d35d5efb34789b97af4ffdce0251
+      internalID: -1586227704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_110
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2382a1a68648746a2b013a221c55355c
+      internalID: 1666019561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_111
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041cafabee56445878a181cb78cc4bb4
+      internalID: -1276822246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_112
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc39e22582e846259ab9170a992b349
+      internalID: 832676760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_113
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d62567b37bc14434ac3edd4c7cccc59
+      internalID: -929516038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_114
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dffd9662a864f429c48b5628d99e30
+      internalID: -562549217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_115
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4212556bcd4e344cbaff6116d74e9b55
+      internalID: 1829200154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_116
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37131892b23894e098e31e2986350f4d
+      internalID: 66017513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_117
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 718
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1429fbce827d74a819ad558f65339e92
+      internalID: 2008705446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b6dc0201aac4e51bcdb4c41b998849
+      internalID: 695851757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_119
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c55591adc0d4cbaa19b5877cd2177a
+      internalID: 1745794188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_120
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2161cb54c596342a6940738e024656c1
+      internalID: 908082856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822c6a150fcd74721bc74e251d40189a
+      internalID: 1131455300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_122
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bb6647b8fc04e1d809b5a3834f3553
+      internalID: 1237794123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_123
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da1f3add196c423db4851f260b1042d
+      internalID: 146156319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_124
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b589235a7f4fcbb7c26a72983cf99
+      internalID: 304413429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_125
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26742273cb584295a35276d7528312f
+      internalID: -535379412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_126
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097fc932583d34b68b57fed675bf68d9
+      internalID: -2045804542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_127
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08645cb57acc84d9e81d94401287e628
+      internalID: 1046783184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_128
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3158a6df44e044b409d170de05b15a0b
+      internalID: 948383755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_129
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 684
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080063646ec664cf4a75167a84a616fb
+      internalID: 1527835466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c98f46ec96f45a9ac0df2c8b1013dd
+      internalID: -425671900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_131
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f7fda7909e427dabe82d03d4f23a6
+      internalID: -1932941757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_132
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e1f0770823e4bea89309ead3a78aac
+      internalID: 1727005167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_133
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d29871fbc074613acf8c7a0f76f4c6
+      internalID: 1821547451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_134
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5d01aafd73d40cfb2b030d3b8fc7b1
+      internalID: -1832653218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_135
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cba0fe81478e4f2d938f1eb6eac526b
+      internalID: 443875546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a1038483f95453bb780199835e34b3
+      internalID: 1312837565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_137
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1b458a4f9bc4dc780ea0d80e42e489
+      internalID: 8870379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_138
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c596961ba76aa40f5b5433be51601a7a
+      internalID: -1472652038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_139
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddaf3411ebb44b22941905fbf05751c
+      internalID: -490388967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_140
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e0a695550474d23bbd3b03dec9a278
+      internalID: 1880375698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_141
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 650
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eb37ef037a044b789ab96806be2aa7
+      internalID: -1521338284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08a80197834e4911b3a155070748df3
+      internalID: -947920382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_143
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0371696686c294651985b188a316d81a
+      internalID: -2110639825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_144
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42503988ebf014588ae854ef455a203f
+      internalID: -1623342314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_145
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39396edc93b41454894723f4736b19da
+      internalID: -692056287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_146
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f7c8d937c9430e8d0e3acaa26363b
+      internalID: -622815767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_147
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb20d8eb7fa644978962adc5de8292c
+      internalID: -2109674505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_148
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef3e449487ed44ba92ce955cf8e5dae
+      internalID: -248979342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_149
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6366f725cae04c80999ea83eb94dca6
+      internalID: 403129285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_150
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e564b55b5224668863168b9646c00b
+      internalID: -803939652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_151
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f9815e46a643f29c098e5082b0b9e
+      internalID: -1850830190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_152
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01325ffed501f4538937e19235932359
+      internalID: -1405970258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_153
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60b77502728d44b78897a82fe364d6f
+      internalID: -1343876590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_154
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebae76c0d8c241a1955955e9acb9073
+      internalID: -484283079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_155
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13ea9a087af449999d51beed5cf0a18
+      internalID: 290460067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_156
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 616
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8761d812054dc4b97b730cc0fc0d2dc5
+      internalID: -673059620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530a531f5d2274e949b46d191b9349c9
+      internalID: 2102315953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_158
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7c0463b5b5e4d2998760ad4f55395d
+      internalID: 762454088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_159
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa533c2fa60874e44a0b3e4d52834460
+      internalID: -2006225224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_160
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89755c128bc74734aaaf96a7f5b972b
+      internalID: 959699192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_161
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a113b2494064fdbbe3c09a3430150f
+      internalID: 524830280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_162
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a934bec308248c08bdee85dc8e4a1a
+      internalID: 1274811859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_163
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ff564521dc24770bc39a210f536fda
+      internalID: 2087594750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_164
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c524632d2d7bf410d8d026665ee87dea
+      internalID: -19937910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_165
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2023b923f974da4b84a7f8c67aa61c
+      internalID: 714071324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_166
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee50c72ca12684c9aa3dd4a95e818d64
+      internalID: 60164187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_167
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812c404aa35a34d25a18901a2d584d9b
+      internalID: -580146719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_168
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff5082961bd4d8988d7ec6efa350a0
+      internalID: -1576484679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_169
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd929f0e993543b192b5d4e8a19d60f
+      internalID: 1717635501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_170
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca6c72ef55b24973ba61ade71fd081e
+      internalID: 1659625732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_171
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 582
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b77f489aa0bd45279fe10f45d30ebaf
+      internalID: -849498927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285b2e48ae5264b638e133d0e7f6df01
+      internalID: 2146548329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_173
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1da9fb04121944a7ba3144cbf853ca1
+      internalID: 378724760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_174
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1b5b7a02bf4453a9fafadc06c2afd7
+      internalID: 217852281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_175
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a519b4656225b4a67be660969a1ed6c2
+      internalID: 962690910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_176
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bfc8b2c10b8499c99b3ec76431d99b
+      internalID: 475234882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_177
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a44dda41f3da45fa851282cb6c72b93
+      internalID: -259668088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_178
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb3577dfff30421d94f85379dcb6a91
+      internalID: -1036059378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_179
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629096a348a7346a296ca12a238d64d9
+      internalID: 1526452994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_180
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6fe70e962e643e5b390fc470865348
+      internalID: -1023363884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_181
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be60ca9bf2a3d49a8b24103f36864e41
+      internalID: -2133113349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_182
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78647424e2bc94b2993bac0acd38ed24
+      internalID: 992143892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_183
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7a446bdee254c52b06d72ffb3f4acd
+      internalID: 498587601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_184
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0949b646add04c0ebf7bb4c9fb9050e
+      internalID: -869082080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_185
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bca5ba7bc864c37b1b995ba4f836c1
+      internalID: 1800406010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_186
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 548
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f274b2bfbb144878a12da669830ded3
+      internalID: -1285180478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c7cec599a85485791dbb4019eb7f6c
+      internalID: -1338249707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_188
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df28bc39868ef4bbca3f547f3e773104
+      internalID: -858418050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_189
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ce79946c3354708b3ad14e6c2034cd
+      internalID: -94437857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_190
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3f4eff6ef8e42baa87ae4d6428b084
+      internalID: 602132360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_191
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0948e0abcdca4e30ba1615702736c3a
+      internalID: -1209619103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_192
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d1542dc61fc4b5685c6a1f89426704
+      internalID: -1104434456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_193
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db05ee709b72143048b41a6f064b609f
+      internalID: 1069852468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_194
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0434582cc034a17b9f6c8f7d047c56
+      internalID: 1402030999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_195
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745a9b060f4e44dabffc09d2b077b30
+      internalID: 61397512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_196
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec878620fdb14ddd827bec21f02f92c
+      internalID: -795882306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_197
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bcf4cf2688a49268e6859ae2a840dc
+      internalID: -1885917295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_198
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b224e8bbb4543c5b1a62ec5bda22a2
+      internalID: 1236839073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_199
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca837daa104344e1abff2fd166f7c5df
+      internalID: -1669285983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_200
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ed369bf429247a8b0b634d832d02f6
+      internalID: 1784452291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_201
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 514
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a2fb3bef354fde9b5765c1caa34ee
+      internalID: -1257752844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_202
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c2a3c8b1e9e49ccaa630985daeb585
+      internalID: -1996004065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_203
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d9b4fe46de415ead02228b704db6e
+      internalID: -460727452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_204
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc6ff936c8c849b189aa70b79a7e881
+      internalID: -443228071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_205
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49db936936ce4804a1a70d7087fc2ae
+      internalID: -453197601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_206
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd6a1caeabf74c5a8885eb15b088903
+      internalID: -398390053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_207
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e31e68bc2f8a45d398172863b370912
+      internalID: -702035152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_208
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451bb382c82724614adc2d02d297dab2
+      internalID: -1737377231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_209
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b89624ed63644d3f98489ff378e4f5f
+      internalID: -321522704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_210
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392c020901aeb4da3839c6a2e2e38ade
+      internalID: 1303890294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_211
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266c36b6b5095441384389cc5027de5d
+      internalID: 1813626707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_212
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 480
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2809821797ef14d1f8d1e5c6f4910410
+      internalID: 1003141543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130aa0dae803941fd9dbd98cffb35133
+      internalID: 1595444925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_214
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e6b1ecef4914acb9ea3a9844b8c8e3
+      internalID: 501119628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_215
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5c23a5e572048a1b37437b17c9857c
+      internalID: 103269301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_216
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33390be28fada4d8286bed5dfd6a4b51
+      internalID: 1112956402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_217
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3149ec0751bf04a179e79f36e327d377
+      internalID: 1926030903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_218
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e38ab52f611e471dbc77300b63e0e6e
+      internalID: -590289679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_219
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c92997063fb47caabdae7a3aa48c9a
+      internalID: -2061359793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_220
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dc032158bdc42088f9d37c776ad208
+      internalID: -1344391686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_221
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a04f08ce1fbc4ec0b6e5bccab4915ce
+      internalID: -186241911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_222
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c97d25bb3124472c88298e121a70d83
+      internalID: -1611529717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_223
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91c808c30bda4ee0919637e9751d51c
+      internalID: -958876811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_224
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb690c68c8a8497cbe1fcad9b6df042
+      internalID: -1262080113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_225
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37fc6b6c19c244efafafad6f5649cba
+      internalID: -106968829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_226
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 446
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e38a78fc457462aad75d1c192e15b8
+      internalID: -1687711286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_227
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1b3316cf78b4c5587f07b9ddee779d
+      internalID: 1808751260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_228
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd8309efc2e54081a50c6bd96e5f10c
+      internalID: 1854149661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_229
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f7bfb9550ee44b78ba12baf5558898
+      internalID: -319836206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_230
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505e44e86d08f4811b206a6dd0f5d130
+      internalID: -1874501025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_231
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55d582c3cd3a43d7a1618ea17ae20df
+      internalID: -1868597409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_232
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1eb281d664b4a6d82b331553de7d19
+      internalID: -861795234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_233
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1936a810f7084f9da9e05b92abe9f92
+      internalID: 926025097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_234
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f26f62176f44a02870caf9194b3d1e
+      internalID: -1469737095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_235
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c2cb40361d1444e842a2017ced815e
+      internalID: 970575982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_236
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2057dfed1c1d42e0914ce2ba1c6762b
+      internalID: 786640612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_237
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aa2047245cf4d67909531972144514
+      internalID: -1059201339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_238
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76b5b8b427c8400fb60cb07bdd5001a
+      internalID: -737336624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_239
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ade0cf80db649389936eaefbe3107b
+      internalID: 1663613858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_240
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f74763d0e3c4483a6d95051da06f28
+      internalID: 1229725141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_241
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f3446313f984ebb9819c572f20f79a
+      internalID: 1829644643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_242
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e28b3d26fef04185b00c8e7f3e6c6b9
+      internalID: 1009761171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_243
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b0a630b90ad4679adbaf1f9cef9751
+      internalID: -2113570047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_244
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29487f524ca24dd7b8d7a605a9b1121
+      internalID: 1323702578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_245
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c3c040c569d406e97ae67467fa36dd
+      internalID: -1461215986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_246
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51a62a2b73834ab08af1bcdacc43628
+      internalID: 1308881829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_247
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cfcd0badaac45a49e8e8e4da995e24
+      internalID: -2112580974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_248
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f3e53f329d4a979af6948bff2593d
+      internalID: 182184862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_249
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbc5a73a05bb496a89ffe72f3019713
+      internalID: 880150726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_250
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1cd844ed7364494a80fcd073b296d7
+      internalID: 343260044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_251
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e395a718a5a3c4dcaa612bda6cd4ee7b
+      internalID: -2031523736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_252
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832955b093cf54dae88f592ad642b139
+      internalID: 1812975082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_253
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d84d3d7711a144e9af8c2ea210a0b4c
+      internalID: 1450924137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_254
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 378
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec944e907e584386bb0728fa600d600
+      internalID: 878210000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_255
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b082ae6b0e14457ebae1e9be7ee03b0
+      internalID: 1425321240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_256
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67862050078c242faadb432f850ac398
+      internalID: 144362676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_257
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97edf186a80d474fb96b9fdc0e5f8ac
+      internalID: -1494121057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_258
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa62885c8798947fba6b88bf946b5afa
+      internalID: -1681157972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_259
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b9514af1db42989ec7e3f9b8730a7
+      internalID: 655768976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_260
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fd8390a517d4f7193018365e24548d
+      internalID: -1257760529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_261
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8391f43ff2a8c42debecfa2787323ac2
+      internalID: 1681236425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_262
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adcbdc126f404bd0be85878c7a0c1b2
+      internalID: -309749673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_263
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f1319e599544f8e9d7fd4a9ade4c98
+      internalID: -2122819056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_264
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4ce5cde067b4281bb69c668e29fa8b
+      internalID: -904023018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_265
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c731cecd530c48cc863c4cbe559d410
+      internalID: -2057218830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_266
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837d79ca467dc46ba8faa5e8ffb141e1
+      internalID: 637404337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_267
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afa846ced078415bbb54ae2b3d840ba
+      internalID: -1478209197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_268
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23978c9c068184d998718ba54184db83
+      internalID: 1483312379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_269
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99648eff479834bc08839ac6b4045775
+      internalID: -1119073646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_270
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29c5b6c78d864657813ba02bb757461
+      internalID: 917899683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_271
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68128a79dd0844bf3a3b5b82d42557a8
+      internalID: 1666451593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_272
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443412ceb8e04fe2b544f22d6d3d923
+      internalID: -937182627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_273
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb24209aace642bd877bb96bf282435
+      internalID: -632949095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_274
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff28596875733499ab40b6dba3c8d08d
+      internalID: 723748780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_275
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652fa9e8bb4d14483a6f3cf8987aadb7
+      internalID: 1241336339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_276
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b6d0589422244bbaad7aeb939f4c6d
+      internalID: -961317430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_277
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea6b5715f9a9407c9579de867999457
+      internalID: -85536841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_278
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafb14035259a42a88fb9b42d00ac187
+      internalID: -1434202481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_279
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383fede5dac7d414188fdff145d1a8e7
+      internalID: -1096662413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_280
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4d2e864120e4907a3d0188733d4984
+      internalID: 26776585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_281
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5652d2f2afa5b496ebd2f65bab254db5
+      internalID: 960464919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_282
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f8b48c01a3d460db76a7773580aca1
+      internalID: -1091025340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_283
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b568f829cd7914128af8b7dd7ed9d7dd
+      internalID: 579379172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_284
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a4a8a619ae44f2848c89d8613f7ca
+      internalID: -1609349764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_285
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e74283cb453408ca8c82da738dce19
+      internalID: 1861374354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_286
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca576587fcc149cf83f0bd28818e2eb
+      internalID: -287326117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_287
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc056810bf95d4e88be360bf2628fc9d
+      internalID: 1883558414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_288
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c56eb977ff6d468cb4641c376419afb
+      internalID: 806600044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_289
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe287d533de34169828b69871653aed
+      internalID: -1435164571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_290
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2e822ddb0da4ec188f5ccb4c3270c1
+      internalID: 1506912816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_291
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2add58adca5a84caa9c1a413ec784528
+      internalID: -1390179078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_292
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89875814a4c94369998435847953724
+      internalID: 762482745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_293
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d681f2550e334dff9fc07dab0182142
+      internalID: -1695785723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_294
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e95ed7372efa4521b3d9253e70c0613
+      internalID: -1628030521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_295
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecc23b9fb0064eaf91e35db45b81829
+      internalID: 516085499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_296
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60e39e3dc9a84baa86a988f161ee96f
+      internalID: 2140797191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_297
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378e6bfef0d0b4a3191b25c4b3e4f5e3
+      internalID: 1603530094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_298
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311c6919b110e496fb37e31980ce9525
+      internalID: -447831185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_299
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d0fa81f931b4fb8a25e21b02591008
+      internalID: -9862602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_300
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628888da7bbcb42b2a43a7bfbfe0261a
+      internalID: -266961152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_301
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a23cadc4bfde473b89eea370201048e
+      internalID: -990618674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_302
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910cedbc336e34b7bb08bffde24f069a
+      internalID: -1577615697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_303
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdfd9fba803a438da7607a8bc182a3e
+      internalID: 1757257440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_304
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adff1b9263af4303971a9f7a220bb33
+      internalID: -1229905339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_305
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c351ef6733ef420892ed040ad7e5bac
+      internalID: -532597568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_306
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa236741945a4238b19c981ff7c6497
+      internalID: 1744323204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_307
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fba91d8791a84f1684e3b6f60f86d1b
+      internalID: 1489619505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_308
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d583a100a97a6482bb5935d82fc474a4
+      internalID: 1211592382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_medieval_309
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa174ff992254b9794ef07dd0be59e0
+      internalID: 1892283057
       vertices: []
       indices: 
       edges: []
@@ -299,14 +6899,316 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soldier-Walk_0: -6369722787752497797
-      Soldier-Walk_1: -4195647796165820189
-      Soldier-Walk_2: -8464097173789389841
-      Soldier-Walk_3: 4675039378008736925
-      Soldier-Walk_4: 8618280867664089372
-      Soldier-Walk_5: 1914519734761289132
-      Soldier-Walk_6: -7471997188321437821
-      Soldier-Walk_7: -1920940785554729860
+      fence_medieval_0: -1588643009
+      fence_medieval_1: -514797648
+      fence_medieval_10: 993036012
+      fence_medieval_100: 1968793183
+      fence_medieval_101: -242912468
+      fence_medieval_102: -444059665
+      fence_medieval_103: -1985603777
+      fence_medieval_104: -324178062
+      fence_medieval_105: 490284328
+      fence_medieval_106: 647451858
+      fence_medieval_107: 1951121788
+      fence_medieval_108: 178016820
+      fence_medieval_109: -1586227704
+      fence_medieval_11: -1671755209
+      fence_medieval_110: 1666019561
+      fence_medieval_111: -1276822246
+      fence_medieval_112: 832676760
+      fence_medieval_113: -929516038
+      fence_medieval_114: -562549217
+      fence_medieval_115: 1829200154
+      fence_medieval_116: 66017513
+      fence_medieval_117: 2008705446
+      fence_medieval_118: 695851757
+      fence_medieval_119: 1745794188
+      fence_medieval_12: -60784418
+      fence_medieval_120: 908082856
+      fence_medieval_121: 1131455300
+      fence_medieval_122: 1237794123
+      fence_medieval_123: 146156319
+      fence_medieval_124: 304413429
+      fence_medieval_125: -535379412
+      fence_medieval_126: -2045804542
+      fence_medieval_127: 1046783184
+      fence_medieval_128: 948383755
+      fence_medieval_129: 1527835466
+      fence_medieval_13: -122157418
+      fence_medieval_130: -425671900
+      fence_medieval_131: -1932941757
+      fence_medieval_132: 1727005167
+      fence_medieval_133: 1821547451
+      fence_medieval_134: -1832653218
+      fence_medieval_135: 443875546
+      fence_medieval_136: 1312837565
+      fence_medieval_137: 8870379
+      fence_medieval_138: -1472652038
+      fence_medieval_139: -490388967
+      fence_medieval_14: 1733308855
+      fence_medieval_140: 1880375698
+      fence_medieval_141: -1521338284
+      fence_medieval_142: -947920382
+      fence_medieval_143: -2110639825
+      fence_medieval_144: -1623342314
+      fence_medieval_145: -692056287
+      fence_medieval_146: -622815767
+      fence_medieval_147: -2109674505
+      fence_medieval_148: -248979342
+      fence_medieval_149: 403129285
+      fence_medieval_15: 1561169709
+      fence_medieval_150: -803939652
+      fence_medieval_151: -1850830190
+      fence_medieval_152: -1405970258
+      fence_medieval_153: -1343876590
+      fence_medieval_154: -484283079
+      fence_medieval_155: 290460067
+      fence_medieval_156: -673059620
+      fence_medieval_157: 2102315953
+      fence_medieval_158: 762454088
+      fence_medieval_159: -2006225224
+      fence_medieval_16: -2017782732
+      fence_medieval_160: 959699192
+      fence_medieval_161: 524830280
+      fence_medieval_162: 1274811859
+      fence_medieval_163: 2087594750
+      fence_medieval_164: -19937910
+      fence_medieval_165: 714071324
+      fence_medieval_166: 60164187
+      fence_medieval_167: -580146719
+      fence_medieval_168: -1576484679
+      fence_medieval_169: 1717635501
+      fence_medieval_17: -1710951763
+      fence_medieval_170: 1659625732
+      fence_medieval_171: -849498927
+      fence_medieval_172: 2146548329
+      fence_medieval_173: 378724760
+      fence_medieval_174: 217852281
+      fence_medieval_175: 962690910
+      fence_medieval_176: 475234882
+      fence_medieval_177: -259668088
+      fence_medieval_178: -1036059378
+      fence_medieval_179: 1526452994
+      fence_medieval_18: -769342775
+      fence_medieval_180: -1023363884
+      fence_medieval_181: -2133113349
+      fence_medieval_182: 992143892
+      fence_medieval_183: 498587601
+      fence_medieval_184: -869082080
+      fence_medieval_185: 1800406010
+      fence_medieval_186: -1285180478
+      fence_medieval_187: -1338249707
+      fence_medieval_188: -858418050
+      fence_medieval_189: -94437857
+      fence_medieval_19: 393894940
+      fence_medieval_190: 602132360
+      fence_medieval_191: -1209619103
+      fence_medieval_192: -1104434456
+      fence_medieval_193: 1069852468
+      fence_medieval_194: 1402030999
+      fence_medieval_195: 61397512
+      fence_medieval_196: -795882306
+      fence_medieval_197: -1885917295
+      fence_medieval_198: 1236839073
+      fence_medieval_199: -1669285983
+      fence_medieval_2: -1246036166
+      fence_medieval_20: 13194625
+      fence_medieval_200: 1784452291
+      fence_medieval_201: -1257752844
+      fence_medieval_202: -1996004065
+      fence_medieval_203: -460727452
+      fence_medieval_204: -443228071
+      fence_medieval_205: -453197601
+      fence_medieval_206: -398390053
+      fence_medieval_207: -702035152
+      fence_medieval_208: -1737377231
+      fence_medieval_209: -321522704
+      fence_medieval_21: 5247051
+      fence_medieval_210: 1303890294
+      fence_medieval_211: 1813626707
+      fence_medieval_212: 1003141543
+      fence_medieval_213: 1595444925
+      fence_medieval_214: 501119628
+      fence_medieval_215: 103269301
+      fence_medieval_216: 1112956402
+      fence_medieval_217: 1926030903
+      fence_medieval_218: -590289679
+      fence_medieval_219: -2061359793
+      fence_medieval_22: 1625978906
+      fence_medieval_220: -1344391686
+      fence_medieval_221: -186241911
+      fence_medieval_222: -1611529717
+      fence_medieval_223: -958876811
+      fence_medieval_224: -1262080113
+      fence_medieval_225: -106968829
+      fence_medieval_226: -1687711286
+      fence_medieval_227: 1808751260
+      fence_medieval_228: 1854149661
+      fence_medieval_229: -319836206
+      fence_medieval_23: 1244363398
+      fence_medieval_230: -1874501025
+      fence_medieval_231: -1868597409
+      fence_medieval_232: -861795234
+      fence_medieval_233: 926025097
+      fence_medieval_234: -1469737095
+      fence_medieval_235: 970575982
+      fence_medieval_236: 786640612
+      fence_medieval_237: -1059201339
+      fence_medieval_238: -737336624
+      fence_medieval_239: 1663613858
+      fence_medieval_24: 96956003
+      fence_medieval_240: 1229725141
+      fence_medieval_241: 1829644643
+      fence_medieval_242: 1009761171
+      fence_medieval_243: -2113570047
+      fence_medieval_244: 1323702578
+      fence_medieval_245: -1461215986
+      fence_medieval_246: 1308881829
+      fence_medieval_247: -2112580974
+      fence_medieval_248: 182184862
+      fence_medieval_249: 880150726
+      fence_medieval_25: -918363313
+      fence_medieval_250: 343260044
+      fence_medieval_251: -2031523736
+      fence_medieval_252: 1812975082
+      fence_medieval_253: 1450924137
+      fence_medieval_254: 878210000
+      fence_medieval_255: 1425321240
+      fence_medieval_256: 144362676
+      fence_medieval_257: -1494121057
+      fence_medieval_258: -1681157972
+      fence_medieval_259: 655768976
+      fence_medieval_26: 1052537835
+      fence_medieval_260: -1257760529
+      fence_medieval_261: 1681236425
+      fence_medieval_262: -309749673
+      fence_medieval_263: -2122819056
+      fence_medieval_264: -904023018
+      fence_medieval_265: -2057218830
+      fence_medieval_266: 637404337
+      fence_medieval_267: -1478209197
+      fence_medieval_268: 1483312379
+      fence_medieval_269: -1119073646
+      fence_medieval_27: 465997514
+      fence_medieval_270: 917899683
+      fence_medieval_271: 1666451593
+      fence_medieval_272: -937182627
+      fence_medieval_273: -632949095
+      fence_medieval_274: 723748780
+      fence_medieval_275: 1241336339
+      fence_medieval_276: -961317430
+      fence_medieval_277: -85536841
+      fence_medieval_278: -1434202481
+      fence_medieval_279: -1096662413
+      fence_medieval_28: -1967251769
+      fence_medieval_280: 26776585
+      fence_medieval_281: 960464919
+      fence_medieval_282: -1091025340
+      fence_medieval_283: 579379172
+      fence_medieval_284: -1609349764
+      fence_medieval_285: 1861374354
+      fence_medieval_286: -287326117
+      fence_medieval_287: 1883558414
+      fence_medieval_288: 806600044
+      fence_medieval_289: -1435164571
+      fence_medieval_29: 419576944
+      fence_medieval_290: 1506912816
+      fence_medieval_291: -1390179078
+      fence_medieval_292: 762482745
+      fence_medieval_293: -1695785723
+      fence_medieval_294: -1628030521
+      fence_medieval_295: 516085499
+      fence_medieval_296: 2140797191
+      fence_medieval_297: 1603530094
+      fence_medieval_298: -447831185
+      fence_medieval_299: -9862602
+      fence_medieval_3: 1825521877
+      fence_medieval_30: 1550933077
+      fence_medieval_300: -266961152
+      fence_medieval_301: -990618674
+      fence_medieval_302: -1577615697
+      fence_medieval_303: 1757257440
+      fence_medieval_304: -1229905339
+      fence_medieval_305: -532597568
+      fence_medieval_306: 1744323204
+      fence_medieval_307: 1489619505
+      fence_medieval_308: 1211592382
+      fence_medieval_309: 1892283057
+      fence_medieval_31: 942324993
+      fence_medieval_32: -886164448
+      fence_medieval_33: -1421151762
+      fence_medieval_34: 434190730
+      fence_medieval_35: -1558763249
+      fence_medieval_36: -452727313
+      fence_medieval_37: -802867761
+      fence_medieval_38: 733923213
+      fence_medieval_39: -113239315
+      fence_medieval_4: -1996385890
+      fence_medieval_40: 1051777569
+      fence_medieval_41: 1774200240
+      fence_medieval_42: -1642750069
+      fence_medieval_43: 1385697900
+      fence_medieval_44: 1697414774
+      fence_medieval_45: 14308654
+      fence_medieval_46: -1366490263
+      fence_medieval_47: -1883821313
+      fence_medieval_48: -80678368
+      fence_medieval_49: 2060012258
+      fence_medieval_5: -1062962810
+      fence_medieval_50: 1722585807
+      fence_medieval_51: 2083205812
+      fence_medieval_52: -563433572
+      fence_medieval_53: -6406154
+      fence_medieval_54: 1703306636
+      fence_medieval_55: 1081804325
+      fence_medieval_56: -729614855
+      fence_medieval_57: -1651132164
+      fence_medieval_58: 1963691333
+      fence_medieval_59: 231476899
+      fence_medieval_6: -1568188717
+      fence_medieval_60: 36111875
+      fence_medieval_61: -194125091
+      fence_medieval_62: -2025170655
+      fence_medieval_63: -1802887834
+      fence_medieval_64: -1929293820
+      fence_medieval_65: 377101560
+      fence_medieval_66: -86509484
+      fence_medieval_67: -898442871
+      fence_medieval_68: -1764481603
+      fence_medieval_69: 269438448
+      fence_medieval_7: -561155236
+      fence_medieval_70: -740263373
+      fence_medieval_71: -191084854
+      fence_medieval_72: -666340199
+      fence_medieval_73: -517880615
+      fence_medieval_74: -1223983621
+      fence_medieval_75: 468738733
+      fence_medieval_76: 1006855637
+      fence_medieval_77: -1359394189
+      fence_medieval_78: -376386390
+      fence_medieval_79: -1368495079
+      fence_medieval_8: 1957994376
+      fence_medieval_80: 1161494522
+      fence_medieval_81: -2063123152
+      fence_medieval_82: -1273474552
+      fence_medieval_83: 14382520
+      fence_medieval_84: 257549960
+      fence_medieval_85: 183006346
+      fence_medieval_86: 1667075126
+      fence_medieval_87: -129886291
+      fence_medieval_88: -1588869961
+      fence_medieval_89: 2130295969
+      fence_medieval_9: 1925806630
+      fence_medieval_90: -299938979
+      fence_medieval_91: 532023928
+      fence_medieval_92: -2135730680
+      fence_medieval_93: -438566273
+      fence_medieval_94: -420439768
+      fence_medieval_95: 1041133278
+      fence_medieval_96: 473693272
+      fence_medieval_97: -1728291819
+      fence_medieval_98: -769575658
+      fence_medieval_99: 995926897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
