@@ -697,6 +697,10 @@ PrefabInstance:
       propertyPath: enemyAi
       value: 
       objectReference: {fileID: 6317229857742113309}
+    - target: {fileID: 7815348062966368218, guid: 7e21975da01638a4e8021a7e56d01fdc, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
