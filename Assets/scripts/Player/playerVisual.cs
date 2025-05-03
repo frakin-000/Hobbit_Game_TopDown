@@ -1,15 +1,18 @@
 using UnityEngine;
 
-public class playerVisual : MonoBehaviour
+public class PlayerVisual : MonoBehaviour
 {
+    public static PlayerVisual Instence { get; private set; }
+
     [SerializeField] private PlayerAttack playerAttack;
     private Animator animator;
-    //[SerializeField] private Player player;
     private const string IS_RUNNING = "IsRunning";
     private const string Attack = "Attack";
     private const string IsDie = "IsDie";
     private const string TakeHit = "TakeHit";
     private SpriteRenderer spriteRenderer;
+
+    public bool lastFlipDirection = true;
 
     private void Start()
     {
@@ -36,6 +39,7 @@ public class playerVisual : MonoBehaviour
 
     private void Awake()
     {
+        Instence = this;
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -43,19 +47,38 @@ public class playerVisual : MonoBehaviour
     private void Update()
     {
         animator.SetBool(IS_RUNNING, Player.Instance.IsRunning());
-        if (Player.Instance.IsAlive())
-            AdjustPlayerFaceFlip();
+        //if (Player.Instance.IsAlive())
+        //    AdjustPlayerFaceFlip();
     }
 
-    private void AdjustPlayerFaceFlip()
-    {
-        var mousePos = GameInput.Instance.GetMousePosition();
-        var playerPos = Player.Instance.GetPlayerPossition();
+    //private void AdjustPlayerFaceFlip()
+    //{
+    //    var mousePos = GameInput.Instance.GetMousePosition();
+    //    var playerPos = Player.Instance.GetPlayerPossition();
 
-        if (mousePos.x < playerPos.x)
+    //    if (mousePos.x < playerPos.x)
+    //        spriteRenderer.flipX = true;
+    //    else
+    //        spriteRenderer.flipX = false;
+    //}
+
+    public void PlayerFaceFlip(float vector)
+    {
+        if (vector < 0)
+        {
             spriteRenderer.flipX = true;
+            lastFlipDirection = true;
+        }
+        else if (vector == 0)
+        {
+            spriteRenderer.flipX = lastFlipDirection;
+        }
+
         else
+        {
             spriteRenderer.flipX = false;
+            lastFlipDirection = false;
+        }
     }
 
     public void TriggerEndAttackAnimation()
