@@ -90,7 +90,10 @@ public class Player : MonoBehaviour
         //inputVector = inputVector.normalized;
         rb.MovePosition(rb.position + movingSpeed * Time.fixedDeltaTime * inputVector);
         if (Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed)
+        {
+            PlayerVisual.Instence.PlayerFaceFlip(inputVector.x);
             isRunning = true;
+        }
         else
             isRunning = false;
     }

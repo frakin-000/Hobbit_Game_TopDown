@@ -26,11 +26,11 @@ public class GameInput : MonoBehaviour
         Vector2 inputVector = playerInputActions.Player.Move.ReadValue<Vector2>();
         return inputVector;
     }
-    public Vector3 GetMousePosition()
-    {
-        Vector3 mousPos = Mouse.current.position.ReadValue();
-        return mousPos;
-    }
+    //public Vector3 GetMousePosition()
+    //{
+    //    Vector3 mousPos = Mouse.current.position.ReadValue();
+    //    return mousPos;
+    //}
 
     public void DisableMovement()
     {
