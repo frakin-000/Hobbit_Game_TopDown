@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7188029377359173292}
   - component: {fileID: 5117907617000699697}
   - component: {fileID: 7414692298829391282}
+  - component: {fileID: 8680211054604622031}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -74,9 +75,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1822715009
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 1495912515
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 840945372, guid: 10da162914377461d8f718b3d1a9d35e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -122,6 +123,22 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.018065223, y: -0.06378532}
-  m_Size: {x: 1.2642633, y: 0.26297525}
+  m_Offset: {x: 0.014709687, y: 0.03311533}
+  m_Size: {x: 0.89090115, y: 0.17462565}
   m_Direction: 1
+--- !u!114 &8680211054604622031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7081245800043590833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

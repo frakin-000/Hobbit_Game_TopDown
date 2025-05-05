@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private int maxHealth = 100;
     private Rigidbody2D rb;
-    private float movingSpeed = 5f;
+    private float movingSpeed = 8f;
     private float minMovingSpeed = 0.1f;
     private bool isRunning = false;
     Vector2 inputVector;
@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private float damageRecoveryTime = 0.5f;
     private bool canTakeDamage;
     private bool isAlive = true;
+    private Vector3 startPosition;
 
     public event EventHandler OnPlayerDeath;
     public event EventHandler OnPlayerTakeHit;
@@ -26,6 +27,7 @@ public class Player : MonoBehaviour
         GameInput.Instance.OnPlayerAttack += Player_OnPlayerAttack;
         currentHealth = maxHealth;
         canTakeDamage = true;
+        startPosition = transform.position;
     }
 
     private void Player_OnPlayerAttack(object sender, System.EventArgs e)
@@ -75,6 +77,8 @@ public class Player : MonoBehaviour
             GameInput.Instance.DisableMovement();
 
             OnPlayerDeath?.Invoke(this, EventArgs.Empty);
+
+            //Restart();
         }
     }
 
@@ -111,5 +115,16 @@ public class Player : MonoBehaviour
     public bool IsAlive()
     {
         return isAlive;
+    }
+
+    private void Restart()
+    {
+        isAlive = true;
+        currentHealth = maxHealth;
+        transform.position = startPosition;
+        knockBack.StartKnockMovement();
+        GameInput.Instance.EnableMovement();
+        PlayerVisual.Instence.RestartLife();
+
     }
 }
