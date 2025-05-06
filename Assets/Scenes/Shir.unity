@@ -1082,10 +1082,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4686216192419041807, guid: 7e21975da01638a4e8021a7e56d01fdc, type: 3}
-      propertyPath: roamingDistanceMax
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6616571208262870465, guid: 7e21975da01638a4e8021a7e56d01fdc, type: 3}
       propertyPath: m_Name
       value: Orc
