@@ -22,6 +22,11 @@ public class PlayerVisual : MonoBehaviour
 
     }
 
+    public void RestartLife()
+    {
+        animator.SetBool(IsDie, false);
+    }
+
     private void Player_OnPlayerDeath(object sender, System.EventArgs e)
     {
         animator.SetBool(IsDie, true);
