@@ -9,7 +9,6 @@ public class EnemyEntity : MonoBehaviour
 
     private PolygonCollider2D pollygonCollider2D;
     private BoxCollider2D boxCollider2D;
-    private CapsuleCollider2D capsuleCollider2D;
     private EnemyAi enemyAi;
 
     public event EventHandler OnTakeHit;
