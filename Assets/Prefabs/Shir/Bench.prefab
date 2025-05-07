@@ -74,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1822715009
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 1495912515
+  m_SortingLayer: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: -422739368, guid: 0ee31a982ca32459da6e8154c60bd40f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -122,6 +122,6 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.027104115, y: 0.02439496}
-  m_Size: {x: 2.0432532, y: 0.32490066}
+  m_Offset: {x: 0.027104137, y: -0.04286837}
+  m_Size: {x: 2.0432541, y: 0.37382573}
   m_Direction: 1
