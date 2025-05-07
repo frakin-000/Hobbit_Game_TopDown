@@ -113,12 +113,12 @@ TextureImporter:
       name: Attack_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 42
-        width: 30
-        height: 18
+        x: 21
+        y: 43
+        width: 26
+        height: 14
       alignment: 9
-      pivot: {x: 0.4956913, y: 0.30611503}
+      pivot: {x: 0.4900567, y: 0.17685781}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -135,12 +135,12 @@ TextureImporter:
       name: Attack_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 42
-        width: 40
-        height: 25
+        x: 51
+        y: 44
+        width: 37
+        height: 22
       alignment: 9
-      pivot: {x: 0.47414875, y: 0.2001242}
+      pivot: {x: 0.50349325, y: 0.2414863}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,11 +158,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 90
-        y: 43
-        width: 34
-        height: 18
+        y: 44
+        width: 32
+        height: 16
       alignment: 9
-      pivot: {x: 0.46198317, y: 0.22712475}
+      pivot: {x: 0.4838426, y: 0.20109367}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,7 +189,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":46.0,"y":104.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Attack_0: -175654614
       Attack_1: -2039228154
