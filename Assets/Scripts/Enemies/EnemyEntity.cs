@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemyEntity : MonoBehaviour
 {
-    [SerializeField] private int maxHealth=100;
+    [SerializeField] private int maxHealth = 100;
     [SerializeField] private int enemyDamage = 10;
     private int currentHealth;
 
@@ -35,7 +35,7 @@ public class EnemyEntity : MonoBehaviour
     {
         currentHealth -= damage;
         OnTakeHit?.Invoke(this, EventArgs.Empty);
-
+        Debug.Log("Получил урон");
         DetectDeath();
     }
     private void DetectDeath()
@@ -46,6 +46,9 @@ public class EnemyEntity : MonoBehaviour
             pollygonCollider2D.enabled = false;
 
             enemyAi.SetDeathState();
+
+            Debug.Log("Умер");
+
             OnDeath?.Invoke(this, EventArgs.Empty);
 
         }
