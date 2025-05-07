@@ -117,7 +117,7 @@ public class Player : MonoBehaviour
         return isAlive;
     }
 
-    private void Restart()
+    public void Restart()
     {
         isAlive = true;
         currentHealth = maxHealth;

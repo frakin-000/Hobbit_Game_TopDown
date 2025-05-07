@@ -16,7 +16,7 @@ public class EnemyAi : MonoBehaviour
 
     private bool isAttackingEnemy = true;
     private float attackingDistance = 2f;
-    private float attackingRate = 2f;
+    private float attackingRate = 1f;
     private float nextAttackTime = 0;
 
     private NavMeshAgent navMeshAgent;

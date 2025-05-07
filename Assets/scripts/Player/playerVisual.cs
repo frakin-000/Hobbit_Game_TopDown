@@ -90,4 +90,9 @@ public class PlayerVisual : MonoBehaviour
     {
         playerAttack.AttackColliderTurnOff();
     }
+
+    public void TriggerLifeRestart()
+    {
+        Player.Instance.Restart();
+    }
 }
