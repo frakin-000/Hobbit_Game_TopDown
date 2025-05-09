@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 3042619979175674304}
   - component: {fileID: 1943480965322036274}
   - component: {fileID: 6324296438755484532}
+  - component: {fileID: 8463254394015240266}
   m_Layer: 0
   m_Name: market
   m_TagString: Untagged
@@ -307,6 +308,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0.026882851, y: -0.3211685}
   m_Size: {x: 1.881917, y: 0.54192084}
   m_Direction: 1
+--- !u!114 &8463254394015240266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2464513716217643400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &3118928815276464143
 GameObject:
   m_ObjectHideFlags: 0
