@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1495912515
-  m_SortingLayer: 1
+  m_SortingLayerID: 1822715009
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1680274530, guid: 0ee31a982ca32459da6e8154c60bd40f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -160,8 +160,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1495912515
-  m_SortingLayer: 1
+  m_SortingLayerID: 1822715009
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 110750090, guid: 0ee31a982ca32459da6e8154c60bd40f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -247,9 +247,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1822715009
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 1495912515
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1588878887, guid: 0ee31a982ca32459da6e8154c60bd40f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -341,7 +341,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1495912515
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 824099410, guid: 0ee31a982ca32459da6e8154c60bd40f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -476,6 +476,14 @@ PrefabInstance:
     - target: {fileID: 3346929311975583695, guid: 4de8e81644c8c471a9b6e23f14721057, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506276807377049016, guid: 4de8e81644c8c471a9b6e23f14721057, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506276807377049016, guid: 4de8e81644c8c471a9b6e23f14721057, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1822715009
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
