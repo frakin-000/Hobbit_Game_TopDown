@@ -4,18 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScenes : MonoBehaviour
 {
-    private static bool enemyAlive = true;
-
-    public static void EnemyDefeat()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        enemyAlive = false;
-    }
-    
-    void Update()
-    {
-        if(!enemyAlive && SceneManager.GetActiveScene().buildIndex == 2)
-        {
-            SceneManager.LoadScene("DarkForest");
-        }
+        if (collision.CompareTag("Player"))
+            SceneManager.LoadSceneAsync(3);
     }
 }

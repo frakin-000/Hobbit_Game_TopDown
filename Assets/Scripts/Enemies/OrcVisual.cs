@@ -29,7 +29,7 @@ public class OrcVisual : MonoBehaviour
     private void EnemyEntity_OnDeath(object sender, System.EventArgs e)
     {
         animator.SetBool(IsDie, true);
-        spriteRenderer.sortingOrder = -1;
+        spriteRenderer.sortingOrder = 2;
     }
 
     private void EnemyEntity_OnTakeHit(object sender, System.EventArgs e)

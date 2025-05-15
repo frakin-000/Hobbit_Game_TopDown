@@ -13,7 +13,7 @@ public class EnemyEntity : MonoBehaviour
 
     public event EventHandler OnTakeHit;
     public event EventHandler OnDeath;
-    
+
     private void Awake()
     {
         pollygonCollider2D = GetComponent<PolygonCollider2D>();
@@ -24,7 +24,7 @@ public class EnemyEntity : MonoBehaviour
     {
         currentHealth = maxHealth;
     }
-    
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.transform.TryGetComponent(out Player player))
@@ -35,22 +35,19 @@ public class EnemyEntity : MonoBehaviour
     {
         currentHealth -= damage;
         OnTakeHit?.Invoke(this, EventArgs.Empty);
-        Debug.Log("������� ����");
         DetectDeath();
     }
     private void DetectDeath()
     {
         if (currentHealth <= 0)
         {
-            ChangeScenes.EnemyDefeat();
             boxCollider2D.enabled = false;
             pollygonCollider2D.enabled = false;
 
             enemyAi.SetDeathState();
 
-            Debug.Log("����");
-
             OnDeath?.Invoke(this, EventArgs.Empty);
+            EnemyDie.Instance.IsEnemyDie();
 
         }
     }
