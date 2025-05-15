@@ -674,6 +674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause
       objectReference: {fileID: 0}
+    - target: {fileID: 206547138451987493, guid: 345cf71d876be4142a74fab07f3a103c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7151149111525591026, guid: 345cf71d876be4142a74fab07f3a103c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
