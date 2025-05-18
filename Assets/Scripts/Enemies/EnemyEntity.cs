@@ -28,7 +28,12 @@ public class EnemyEntity : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.transform.TryGetComponent(out Player player))
-            player.TakeDamage(transform, enemyDamage);
+        {
+            var damage = enemyDamage;
+            if (collision.GetComponent<BoxCollider2D>() != null)
+                damage = damage / 2;
+            player.TakeDamage(transform, damage);
+        }
     }
 
     public void TakeDamage(int damage)

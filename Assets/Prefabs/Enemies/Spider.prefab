@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
-  enemyDamage: 5
+  enemyDamage: 1
 --- !u!114 &6644029629867083051
 MonoBehaviour:
   m_ObjectHideFlags: 0

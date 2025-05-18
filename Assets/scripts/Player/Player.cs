@@ -1,12 +1,19 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
 
-    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private int maxHealth = 10;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite halfHeart;
+    public Sprite emptyHeart;
+
+
     private Rigidbody2D rb;
     private float movingSpeed = 8f;
     private float minMovingSpeed = 0.1f;
@@ -49,9 +56,25 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        HealthVisual();
         if (knockBack.IsGettingKnockedBack)
             return;
         HandleMovment();
+    }
+
+    public void HealthVisual()
+    {
+        var heartsShow = currentHealth;
+
+        for (var i = 0; i < hearts.Length; i++)
+        {
+            if (2 * i < heartsShow - 1)
+                hearts[i].sprite = fullHeart;
+            else if (2 * i < heartsShow)
+                hearts[i].sprite = halfHeart;
+            else
+                hearts[i].sprite = emptyHeart;
+        }
     }
 
     public void TakeDamage(Transform damageSource, int damage)
