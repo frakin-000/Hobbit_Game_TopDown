@@ -28,7 +28,7 @@ public class EnemyAi : MonoBehaviour
     private float roamingSpeed;
     private float chasingSpeed;
     private float nextCheckDirectionTime = 0f;
-    private float checkDirectionDuration = 0.1f;
+    private float checkDirectionDuration = 0.01f;
     private Vector3 lastPosition;
 
     public event EventHandler OnEnemyAttack;
@@ -171,11 +171,15 @@ public class EnemyAi : MonoBehaviour
     private void MovementDirectionHandler()
     {
         if (Time.time > nextCheckDirectionTime)
+        {
+            if (IsRunning())
+                ChangeFaceDirection(lastPosition, transform.position);
 
-            ChangeFaceDirection(lastPosition, transform.position);
+            else if (currentState == State.Attacking)
+                ChangeFaceDirection(transform.position, Player.Instance.transform.position);
+        }
 
-        else if (currentState == State.Attacking)
-            ChangeFaceDirection(transform.position, Player.Instance.transform.position);
+
         lastPosition = transform.position;
         nextCheckDirectionTime = Time.time + checkDirectionDuration;
     }
