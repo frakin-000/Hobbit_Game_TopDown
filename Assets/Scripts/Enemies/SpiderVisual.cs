@@ -42,10 +42,7 @@ public class SpiderVisual : MonoBehaviour
 
     private void Update()
     {
-        var t = enemyAi.IsRunning();
-        Debug.Log(t);
         animator.SetBool(IsRunning, enemyAi.IsRunning());
-        Debug.Log("animation");
         animator.SetFloat(ChasingSpeedMultiplier, enemyAi.GetRoamingAnimationSpeed());
     }
 

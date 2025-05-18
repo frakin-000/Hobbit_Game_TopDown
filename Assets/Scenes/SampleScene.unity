@@ -271,8 +271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smoothTime: 0
   positionOffset: {x: 0, y: 0, z: -8}
-  xLimit: {x: 0, y: 0}
-  yLimit: {x: 0, y: 0}
+  xLimit: {x: -10, y: 10}
+  yLimit: {x: -10, y: 10}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644029629867083051, guid: c9a059a00f2f7074285f344372fa3510, type: 3}
       propertyPath: roamingTimeMax
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

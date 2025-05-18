@@ -153,7 +153,6 @@ public class EnemyAi : MonoBehaviour
     {
         if (navMeshAgent.velocity == Vector3.zero)
             return false;
-        Debug.Log(navMeshAgent.velocity);
         return true;
     }
 
