@@ -21,6 +21,5 @@ public class ChangeScenes : MonoBehaviour
         animator.SetTrigger("Finish");
         yield return new WaitForSeconds(1);
         SceneManager.LoadSceneAsync(indexScene);
-        animator.SetTrigger("Start");
     }
 }
