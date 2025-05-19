@@ -1,21 +1,26 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
 public class ChangeScenes : MonoBehaviour
 {
-    private static bool enemyAlive = true;
 
-    public static void EnemyDefeat()
+    [SerializeField] private int indexScene;
+    [SerializeField] private Animator animator;
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        enemyAlive = false;
+        if (collision.CompareTag("Player"))
+            StartCoroutine(LoadLevel());
     }
-    
-    void Update()
+
+    IEnumerator LoadLevel()
     {
-        if(!enemyAlive && SceneManager.GetActiveScene().buildIndex == 2)
-        {
-            SceneManager.LoadScene("DarkForest");
-        }
+        animator.SetTrigger("Finish");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadSceneAsync(indexScene);
+        animator.SetTrigger("Start");
     }
 }

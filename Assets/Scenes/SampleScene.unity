@@ -271,6 +271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smoothTime: 0
   positionOffset: {x: 0, y: 0, z: -8}
+  xLimit: {x: -10, y: 10}
+  yLimit: {x: -10, y: 10}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause
       objectReference: {fileID: 0}
+    - target: {fileID: 206547138451987493, guid: 345cf71d876be4142a74fab07f3a103c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7151149111525591026, guid: 345cf71d876be4142a74fab07f3a103c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -888,6 +894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orc
       objectReference: {fileID: 0}
+    - target: {fileID: 6616571208262870465, guid: 7e21975da01638a4e8021a7e56d01fdc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7554641706348653076, guid: 7e21975da01638a4e8021a7e56d01fdc, type: 3}
       propertyPath: enemyAi
       value: 
@@ -972,9 +982,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider
       objectReference: {fileID: 0}
+    - target: {fileID: 3458629255388499692, guid: c9a059a00f2f7074285f344372fa3510, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6644029629867083051, guid: c9a059a00f2f7074285f344372fa3510, type: 3}
       propertyPath: roamingTimeMax
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

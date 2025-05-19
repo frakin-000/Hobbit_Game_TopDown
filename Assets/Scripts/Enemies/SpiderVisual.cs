@@ -26,7 +26,6 @@ public class SpiderVisual : MonoBehaviour
 
     private void EnemyEntity_OnDeath(object sender, System.EventArgs e)
     {
-        Debug.Log("Анимация");
         animator.SetBool(IsDie, true);
         spriteRenderer.sortingOrder = -1;
     }
