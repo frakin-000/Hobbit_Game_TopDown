@@ -338,7 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roamingDistanceMax: 5
   roamingDistanceMin: 3
-  roamingTimeMax: 2
+  roamingTimeMax: 10
   startingState: 1
 --- !u!114 &7815348062966368218
 MonoBehaviour:
@@ -354,3 +354,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   enemyDamage: 2
+  enemyColliderDamage: 1
