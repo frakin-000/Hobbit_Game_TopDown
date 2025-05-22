@@ -5,7 +5,7 @@ public class Pointer : MonoBehaviour
 {
     [SerializeField] private Transform player;
 
-    [SerializeField] private Camera camera;
+    [SerializeField] private new Camera camera;
     [SerializeField] private Transform pointerIconTransform;
     void Update()
     {
@@ -15,7 +15,7 @@ public class Pointer : MonoBehaviour
         var minDistance = Mathf.Infinity;
         for (var i = 0; i < 4; i++)
         {
-            if(planes[i].Raycast(ray, out var distance))
+            if (planes[i].Raycast(ray, out var distance))
             {
                 if (distance < minDistance)
                 {

@@ -91,9 +91,9 @@ public class Player : MonoBehaviour
         DetectDeath();
     }
 
-    public void TakeDeath()
+    public void TakeDeath(int damage)
     {
-        currentHealth = 0;
+        currentHealth -= damage;
         DetectDeath();
     }
 

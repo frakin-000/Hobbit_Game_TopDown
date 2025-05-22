@@ -23,19 +23,19 @@ public class StartDialog : MonoBehaviour
         }
     }
 
-    public void EndDialog()
+    public void EndDialog(int damage)
     {
         Dialog.SetActive(false);
-        GameInput.Instance.EnableMovement();
-        Player.Instance.TakeDeath();
-        StartCoroutine(End());
+        //GameInput.Instance.EnableMovement();
+        //Player.Instance.TakeDeath();
+        StartCoroutine(End(damage));
     }
 
-    IEnumerator End()
+    IEnumerator End(int damage)
     {
         yield return new WaitForSeconds(2);
 
         GameInput.Instance.EnableMovement();
-        Player.Instance.TakeDeath();
+        Player.Instance.TakeDeath(damage);
     }
 }
