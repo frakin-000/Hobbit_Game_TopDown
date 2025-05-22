@@ -7,13 +7,6 @@ public class Pointer : MonoBehaviour
 
     [SerializeField] private Camera camera;
     [SerializeField] private Transform pointerIconTransform;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         var fromPlayerToTarget = transform.position - player.position;
@@ -33,7 +26,5 @@ public class Pointer : MonoBehaviour
         minDistance = Mathf.Clamp(minDistance, 0, fromPlayerToTarget.magnitude);
         var worldPosition = ray.GetPoint(minDistance);
         pointerIconTransform.position = camera.WorldToScreenPoint(worldPosition);
-        
-        
     }
 }
