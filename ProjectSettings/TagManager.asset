@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - NextLevel
+  - Dialog
+  - Q1
+  - Q2
   layers:
   - Default
   - TransparentFX
