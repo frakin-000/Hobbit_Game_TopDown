@@ -1,13 +1,17 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class StartDialog : MonoBehaviour
 {
+    public static StartDialog Instance { get; private set; }
+
     public GameObject Dialog;
-    private bool IsDialog;
 
     private void Start()
     {
         Dialog.SetActive(false);
+        Instance = this;
     }
 
     private void Update()
@@ -15,18 +19,23 @@ public class StartDialog : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T))
         {
             Dialog.SetActive(true);
-            IsDialog = true;
+            GameInput.Instance.DisableMovement();
         }
-    }
-
-    public bool DialogCondition()
-    {
-        return IsDialog;
     }
 
     public void EndDialog()
     {
         Dialog.SetActive(false);
-        IsDialog = false;
+        GameInput.Instance.EnableMovement();
+        Player.Instance.TakeDeath();
+        StartCoroutine(End());
+    }
+
+    IEnumerator End()
+    {
+        yield return new WaitForSeconds(2);
+
+        GameInput.Instance.EnableMovement();
+        Player.Instance.TakeDeath();
     }
 }

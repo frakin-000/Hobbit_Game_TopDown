@@ -30,6 +30,7 @@ public class PlayerVisual : MonoBehaviour
     private void Player_OnPlayerDeath(object sender, System.EventArgs e)
     {
         animator.SetBool(IsDie, true);
+        Debug.Log("Die");
     }
 
     private void Player_OnPlayerTakeHit(object sender, System.EventArgs e)

@@ -91,14 +91,21 @@ public class Player : MonoBehaviour
         DetectDeath();
     }
 
+    public void TakeDeath()
+    {
+        currentHealth = 0;
+        DetectDeath();
+    }
+
     private void DetectDeath()
     {
+        Debug.Log(currentHealth);
         if (currentHealth == 0)
         {
             isAlive = false;
             knockBack.StopKnockMovement();
             GameInput.Instance.DisableMovement();
-
+            Debug.Log("smert");
             OnPlayerDeath?.Invoke(this, EventArgs.Empty);
 
             //Restart();
