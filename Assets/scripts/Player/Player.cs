@@ -99,13 +99,12 @@ public class Player : MonoBehaviour
 
     private void DetectDeath()
     {
-        Debug.Log(currentHealth);
         if (currentHealth == 0)
         {
             isAlive = false;
             knockBack.StopKnockMovement();
             GameInput.Instance.DisableMovement();
-            Debug.Log("smert");
+            //OnPlayerTakeHit?.Invoke(this, EventArgs.Empty);
             OnPlayerDeath?.Invoke(this, EventArgs.Empty);
 
             //Restart();

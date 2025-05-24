@@ -23,12 +23,14 @@ public class DialogController : MonoBehaviour
     private bool start = true;
 
 
-    private int currentHealth = 10;
+    private int currentHealth;
     private int damage;
 
     public void Start()
     {
         Instance = this;
+        currentHealth = 10;
+        start = true;
         questions[0].SetActive(true);
         for (var i = 1; i < questions.Length; i++)
             questions[i].SetActive(false);
@@ -42,11 +44,6 @@ public class DialogController : MonoBehaviour
     public void NextQuestion()
     {
         StartCoroutine(RightVisual());
-        if (numberQuestion + 1 == questions.Length)
-        {
-            StartCoroutine(VictoryVisual());
-            StartDialog.Instance.EndDialog(damage);
-        }
     }
 
     IEnumerator RightVisual()
@@ -58,17 +55,24 @@ public class DialogController : MonoBehaviour
             yield return new WaitForSeconds(2);
             right.SetActive(false);
         }
-        numberQuestion++;
-        questions[numberQuestion].SetActive(true);
-        start = false;
+        if (numberQuestion + 1 == questions.Length)
+            StartCoroutine(VictoryVisual());
+        else
+        {
+            numberQuestion++;
+            questions[numberQuestion].SetActive(true);
+            start = false;
+        }
 
     }
 
     IEnumerator VictoryVisual()
     {
+
         victory.SetActive(true);
         yield return new WaitForSeconds(2);
         victory.SetActive(false);
+        StartDialog.Instance.EndDialog(damage);
 
     }
 
@@ -77,17 +81,17 @@ public class DialogController : MonoBehaviour
         if (currentHealth > 0)
             HealthVisual();
         else
-        {
             StartCoroutine(DefeatVisual());
-            StartDialog.Instance.EndDialog(damage);
-        }
     }
 
     IEnumerator DefeatVisual()
     {
+        questions[numberQuestion].SetActive(false);
         defeat.SetActive(true);
         yield return new WaitForSeconds(2);
         defeat.SetActive(false);
+        Start();
+        StartDialog.Instance.EndDialog(damage);
 
     }
 
@@ -110,7 +114,8 @@ public class DialogController : MonoBehaviour
     {
         currentHealth -= 2;
         damage += 2;
-        StartCoroutine(WrongVisual());
+        if (currentHealth > 0)
+            StartCoroutine(WrongVisual());
     }
 
     IEnumerator WrongVisual()

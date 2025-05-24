@@ -8,6 +8,8 @@ public class StartDialog : MonoBehaviour
 
     public GameObject Dialog;
 
+    private bool isDialog;
+
     private void Start()
     {
         Dialog.SetActive(false);
@@ -16,19 +18,25 @@ public class StartDialog : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T) && isDialog)
         {
             Dialog.SetActive(true);
             GameInput.Instance.DisableMovement();
         }
     }
 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+            isDialog = true;
+    }
+
     public void EndDialog(int damage)
     {
         Dialog.SetActive(false);
-        //GameInput.Instance.EnableMovement();
-        //Player.Instance.TakeDeath();
-        StartCoroutine(End(damage));
+        isDialog = false;
+        StartCoroutine(End(damage));  
     }
 
     IEnumerator End(int damage)
