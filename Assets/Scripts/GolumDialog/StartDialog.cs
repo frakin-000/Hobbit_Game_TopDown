@@ -7,8 +7,11 @@ public class StartDialog : MonoBehaviour
     public static StartDialog Instance { get; private set; }
 
     public GameObject Dialog;
+    public GameObject Golum;
 
     private bool isDialog;
+
+    private bool restart;
 
     private void Start()
     {
@@ -18,11 +21,14 @@ public class StartDialog : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T) && isDialog)
+        if (Input.GetKeyDown(KeyCode.T) && isDialog && !restart)
         {
             Dialog.SetActive(true);
             GameInput.Instance.DisableMovement();
         }
+
+        if (restart)
+            Golum.SetActive(false);
     }
 
 
@@ -32,11 +38,14 @@ public class StartDialog : MonoBehaviour
             isDialog = true;
     }
 
-    public void EndDialog(int damage)
+    public void EndDialog(int damage, bool victory)
     {
+        restart = victory;
         Dialog.SetActive(false);
         isDialog = false;
-        StartCoroutine(End(damage));  
+        if (victory)
+            EnemyDie.Instance.IsEnemyDie();
+        StartCoroutine(End(damage));
     }
 
     IEnumerator End(int damage)

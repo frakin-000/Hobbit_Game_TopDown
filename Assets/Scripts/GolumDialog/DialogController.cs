@@ -72,7 +72,7 @@ public class DialogController : MonoBehaviour
         victory.SetActive(true);
         yield return new WaitForSeconds(2);
         victory.SetActive(false);
-        StartDialog.Instance.EndDialog(damage);
+        StartDialog.Instance.EndDialog(damage, true);
 
     }
 
@@ -91,7 +91,7 @@ public class DialogController : MonoBehaviour
         yield return new WaitForSeconds(2);
         defeat.SetActive(false);
         Start();
-        StartDialog.Instance.EndDialog(damage);
+        StartDialog.Instance.EndDialog(damage, false);
 
     }
 
