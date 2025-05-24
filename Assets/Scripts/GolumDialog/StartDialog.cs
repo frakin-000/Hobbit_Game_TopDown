@@ -38,6 +38,12 @@ public class StartDialog : MonoBehaviour
             isDialog = true;
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+            isDialog = false;
+    }
+
     public void EndDialog(int damage, bool victory)
     {
         restart = victory;
