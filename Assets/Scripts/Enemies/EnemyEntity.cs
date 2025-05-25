@@ -5,6 +5,7 @@ public class EnemyEntity : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private int enemyDamage = 10;
+    [SerializeField] private int enemyColliderDamage;
     private int currentHealth;
 
     private PolygonCollider2D pollygonCollider2D;
@@ -31,7 +32,7 @@ public class EnemyEntity : MonoBehaviour
         {
             var damage = enemyDamage;
             if (collision.GetComponent<BoxCollider2D>() != null)
-                damage = damage / 2;
+                damage = enemyColliderDamage;
             player.TakeDamage(transform, damage);
         }
     }

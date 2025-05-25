@@ -15,8 +15,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Shir.unity
     guid: 9169f038ab9234e9d82677d0cb114002
   - enabled: 1
+    path: Assets/Scenes/BeforeForest.unity
+    guid: 1b694ddc81b59db4797901a133795876
+  - enabled: 1
     path: Assets/Scenes/DarkForest.unity
     guid: cd0121aa8f36d9b43bbe91e95c144d91
+  - enabled: 1
+    path: Assets/Scenes/BeforeGolum.unity
+    guid: 2bede717edd505649adc9b7d254b56fd
+  - enabled: 1
+    path: Assets/Scenes/Lake.unity
+    guid: 1e4d2bfd26c4c4e23be8f66f5ab1f0b9
+  - enabled: 1
+    path: Assets/Scenes/BeforeEnd.unity
+    guid: d96b0a524cbd8eb47a072ee0d55ec753
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02

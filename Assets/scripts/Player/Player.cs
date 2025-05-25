@@ -91,6 +91,12 @@ public class Player : MonoBehaviour
         DetectDeath();
     }
 
+    public void TakeDeath(int damage)
+    {
+        currentHealth -= damage;
+        DetectDeath();
+    }
+
     private void DetectDeath()
     {
         if (currentHealth == 0)
@@ -98,7 +104,7 @@ public class Player : MonoBehaviour
             isAlive = false;
             knockBack.StopKnockMovement();
             GameInput.Instance.DisableMovement();
-
+            //OnPlayerTakeHit?.Invoke(this, EventArgs.Empty);
             OnPlayerDeath?.Invoke(this, EventArgs.Empty);
 
             //Restart();

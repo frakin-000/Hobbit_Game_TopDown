@@ -204,6 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 50
   enemyDamage: 1
+  enemyColliderDamage: 0
 --- !u!114 &6644029629867083051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,7 +219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roamingDistanceMax: 5
   roamingDistanceMin: 3
-  roamingTimeMax: 1
+  roamingTimeMax: 7
   startingState: 1
 --- !u!1 &4167223138876279141
 GameObject:

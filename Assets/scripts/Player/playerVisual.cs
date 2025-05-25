@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using Unity.VisualScripting;
 
 public class PlayerVisual : MonoBehaviour
 {
@@ -29,6 +31,7 @@ public class PlayerVisual : MonoBehaviour
 
     private void Player_OnPlayerDeath(object sender, System.EventArgs e)
     {
+        animator.SetTrigger(TakeHit);
         animator.SetBool(IsDie, true);
     }
 
@@ -93,6 +96,12 @@ public class PlayerVisual : MonoBehaviour
 
     public void TriggerLifeRestart()
     {
+        StartCoroutine(Restart());
+    }
+
+    IEnumerator Restart()
+    {
+        yield return new WaitForSeconds(1);
         Player.Instance.Restart();
     }
 }
