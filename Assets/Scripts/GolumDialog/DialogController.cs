@@ -19,6 +19,7 @@ public class DialogController : MonoBehaviour
     public GameObject right;
     public GameObject defeat;
     public GameObject victory;
+    public static bool changePointer;
 
     private bool start = true;
 
@@ -68,12 +69,17 @@ public class DialogController : MonoBehaviour
 
     IEnumerator VictoryVisual()
     {
-
         victory.SetActive(true);
+        changePointer = true;
         yield return new WaitForSeconds(2);
         victory.SetActive(false);
+        changePointer = false;
         StartDialog.Instance.EndDialog(damage, true);
+    }
 
+    public static bool IsVictory()
+    {
+        return changePointer;
     }
 
     public void Update()

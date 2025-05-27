@@ -7,9 +7,23 @@ public class Pointer : MonoBehaviour
 
     [SerializeField] private new Camera camera;
     [SerializeField] private Transform pointerIconTransform;
+    [SerializeField] private Transform gollum;
+    [SerializeField] private Transform exit;
     void Update()
     {
-        var fromPlayerToTarget = transform.position - player.position;
+        if (DialogController.IsVictory())
+        {
+            ChangePointer(exit);
+        }
+        else
+        {
+            ChangePointer(gollum);
+        }
+    }
+
+    private void ChangePointer(Transform goal)
+    {
+        var fromPlayerToTarget = goal.position - player.position;
         var ray = new Ray(player.position, fromPlayerToTarget);
         var planes = GeometryUtility.CalculateFrustumPlanes(camera);
         var minDistance = Mathf.Infinity;
