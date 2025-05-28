@@ -8,12 +8,16 @@ public class ChangeScenes : MonoBehaviour
 
     [SerializeField] private int indexScene;
     [SerializeField] private Animator animator;
+    [SerializeField] private GameObject pointer;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
+        {
+            // pointer.SetActive(false);
             StartCoroutine(LoadLevel());
+        }
     }
 
     IEnumerator LoadLevel()

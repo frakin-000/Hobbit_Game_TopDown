@@ -32,6 +32,8 @@ public class DialogController : MonoBehaviour
         Instance = this;
         currentHealth = 10;
         start = true;
+        numberQuestion = 0;
+        damage = 0;
         questions[0].SetActive(true);
         for (var i = 1; i < questions.Length; i++)
             questions[i].SetActive(false);
@@ -73,7 +75,6 @@ public class DialogController : MonoBehaviour
         changePointer = true;
         yield return new WaitForSeconds(2);
         victory.SetActive(false);
-        changePointer = false;
         StartDialog.Instance.EndDialog(damage, true);
     }
 
@@ -96,9 +97,8 @@ public class DialogController : MonoBehaviour
         defeat.SetActive(true);
         yield return new WaitForSeconds(2);
         defeat.SetActive(false);
-        Start();
         StartDialog.Instance.EndDialog(damage, false);
-
+        Start();
     }
 
     private void HealthVisual()
@@ -115,6 +115,7 @@ public class DialogController : MonoBehaviour
                 hearts[i].sprite = emptyHeart;
         }
     }
+    
 
     public void Damage()
     {

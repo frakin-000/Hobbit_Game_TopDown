@@ -56,7 +56,7 @@ public class StartDialog : MonoBehaviour
 
     IEnumerator End(int damage)
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
 
         GameInput.Instance.EnableMovement();
         Player.Instance.TakeDeath(damage);
