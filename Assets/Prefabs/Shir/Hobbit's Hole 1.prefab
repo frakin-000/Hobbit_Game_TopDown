@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 3435334189094207117}
   - component: {fileID: 7031036895580601215}
   - component: {fileID: 4236666812459612486}
+  - component: {fileID: 2048309430209657706}
   m_Layer: 0
   m_Name: Hobbit's Hole 1
   m_TagString: Untagged
@@ -337,6 +338,57 @@ PolygonCollider2D:
       - {x: 2.614496, y: -0.29893672}
       - {x: 3.1127014, y: -0.076301575}
       - {x: 1.6319215, y: 1.0680525}
+  m_UseDelaunayMesh: 0
+--- !u!60 &2048309430209657706
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8849094336351077339}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5078801, y: 0.22419798}
+    oldSize: {x: 7, y: 3}
+    newSize: {x: 14.875, y: 6.375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -3.5551608, y: 2.3274062}
+      - {x: -3.5551608, y: -0.67259395}
+      - {x: 3.4448392, y: -0.67259395}
+      - {x: 3.4448392, y: 2.3274062}
   m_UseDelaunayMesh: 0
 --- !u!1 &8913339773663543921
 GameObject:
