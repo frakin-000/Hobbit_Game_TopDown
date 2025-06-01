@@ -15,7 +15,7 @@ public class EnemyAi : MonoBehaviour
     private float chasingSpeedMultiplier = 2f;
 
     private bool isAttackingEnemy = true;
-    private float attackingDistance = 2f;
+    private float attackingDistance = 1.5f;
     private float attackingRate = 1f;
     private float nextAttackTime = 0;
 

@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     Vector2 inputVector;
     private KnockBack knockBack;
     private int currentHealth;
-    private float damageRecoveryTime = 0.5f;
+    private float damageRecoveryTime = 0.2f;
     private bool canTakeDamage;
     private bool isAlive = true;
     private Vector3 startPosition;

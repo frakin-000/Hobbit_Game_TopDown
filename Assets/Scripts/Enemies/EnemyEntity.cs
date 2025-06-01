@@ -4,37 +4,25 @@ using UnityEngine;
 public class EnemyEntity : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 100;
-    [SerializeField] private int enemyDamage = 10;
-    [SerializeField] private int enemyColliderDamage;
     private int currentHealth;
 
-    private PolygonCollider2D pollygonCollider2D;
     private BoxCollider2D boxCollider2D;
     private EnemyAi enemyAi;
+    private EnemyAttack enemyAttack;
 
     public event EventHandler OnTakeHit;
     public event EventHandler OnDeath;
 
     private void Awake()
     {
-        pollygonCollider2D = GetComponent<PolygonCollider2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
         enemyAi = GetComponent<EnemyAi>();
+        enemyAttack = GetComponent<EnemyAttack>();
+
     }
     private void Start()
     {
         currentHealth = maxHealth;
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.transform.TryGetComponent(out Player player))
-        {
-            var damage = enemyDamage;
-            if (collision.GetComponent<BoxCollider2D>() != null)
-                damage = enemyColliderDamage;
-            player.TakeDamage(transform, damage);
-        }
     }
 
     public void TakeDamage(int damage)
@@ -48,23 +36,11 @@ public class EnemyEntity : MonoBehaviour
         if (currentHealth <= 0)
         {
             boxCollider2D.enabled = false;
-            pollygonCollider2D.enabled = false;
-
+            enemyAttack.PolygonEnabled();
             enemyAi.SetDeathState();
-
             OnDeath?.Invoke(this, EventArgs.Empty);
             EnemyDie.Instance.IsEnemyDie();
 
         }
-    }
-
-    public void PolygonColliderTurnOff()
-    {
-        pollygonCollider2D.enabled = false;
-    }
-
-    public void PolygonColliderTurnOn()
-    {
-        pollygonCollider2D.enabled = true;
     }
 }

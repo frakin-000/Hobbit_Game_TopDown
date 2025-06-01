@@ -4,6 +4,7 @@ public class SpiderVisual : MonoBehaviour
 {
     [SerializeField] private EnemyAi enemyAi;
     [SerializeField] private EnemyEntity enemyEntity;
+    [SerializeField] private EnemyAttack enemyAttack;
     private Animator animator;
     private const string IsRunning = "IsRunning";
     private const string ChasingSpeedMultiplier = "ChasingSpeedMultiplier";
@@ -48,11 +49,11 @@ public class SpiderVisual : MonoBehaviour
 
     public void TriggerAttackingAnimationTurnOff()
     {
-        enemyEntity.PolygonColliderTurnOff();
+        enemyAttack.PolygonColliderTurnOff();
     }
 
     public void TriggerAttackingAnimationTurnOn()
     {
-        enemyEntity.PolygonColliderTurnOn();
+        enemyAttack.PolygonColliderTurnOn();
     }
 }
