@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2591519486268895992}
   - component: {fileID: 8953079296186890772}
   - component: {fileID: 7479897999297194805}
+  - component: {fileID: 4041848917294482595}
+  - component: {fileID: 7935982271084671789}
   m_Layer: 0
   m_Name: Tent
   m_TagString: Untagged
@@ -152,3 +154,82 @@ PolygonCollider2D:
       - {x: -1.6089109, y: 3.880509}
       - {x: -1.6383227, y: 3.880509}
   m_UseDelaunayMesh: 0
+--- !u!60 &4041848917294482595
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7679247753176523992}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.47609377, y: 0.106375486}
+    oldSize: {x: 3.4411764, y: 4.4411764}
+    newSize: {x: 3.4411764, y: 4.4411764}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.0087361, y: 2.7040384}
+      - {x: 0.56755966, y: 3.2334502}
+      - {x: 0.1852067, y: 3.9687443}
+      - {x: -0.13832273, y: 3.9687443}
+      - {x: -0.96185213, y: 2.7334502}
+      - {x: -1.4324404, y: 2.615803}
+      - {x: -1.5206757, y: 2.7334502}
+      - {x: -1.6383227, y: 2.7334502}
+      - {x: -1.6383227, y: -0.47243232}
+      - {x: 1.7440302, y: -0.47243232}
+      - {x: 1.8028537, y: -0.44302055}
+      - {x: 1.8028537, y: 2.5863912}
+    - - {x: -1.6383227, y: 3.5863912}
+      - {x: -1.5500875, y: 3.615803}
+      - {x: -1.5500875, y: 3.8216853}
+      - {x: -1.6089109, y: 3.880509}
+      - {x: -1.6383227, y: 3.880509}
+  m_UseDelaunayMesh: 0
+--- !u!114 &7935982271084671789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7679247753176523992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e1222e8f8a14c019800599a4a5a5a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: "\u0412 \u0448\u0438\u0440 \u043F\u0440\u043E\u0431\u0440\u0430\u043B\u0441\u044F
+    \u043E\u0440\u043A \u0438\u0437 \u0442\u0435\u043C\u043D\u043E\u0433\u043E \u043B\u0435\u0441\u0430,
+    \u0443\u0447\u043D\u0438\u0447\u0442\u043E\u0436\u044C \u0435\u0433\u043E!"

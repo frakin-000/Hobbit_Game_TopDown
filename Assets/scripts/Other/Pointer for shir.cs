@@ -11,6 +11,7 @@ public class Pointerforshir : MonoBehaviour
     [SerializeField] private Transform farm;
     [SerializeField] private Transform bar;
     [SerializeField] private Transform firePoint;
+    [SerializeField] private Transform ork;
     [SerializeField] private Transform exit;
     private Transform currentTarget;
 
@@ -19,6 +20,7 @@ public class Pointerforshir : MonoBehaviour
         Farm,
         Bar,
         FirePoint,
+        Ork,
         Exit
     }
 
@@ -51,11 +53,18 @@ public class Pointerforshir : MonoBehaviour
                 currentTarget = firePoint;
                 if (Vector3.Distance(player.position, firePoint.position) < 2f)
                 {
+                    current = PointerTarget.Ork;
+                    currentTarget = ork;
+                }
+                break;
+            case PointerTarget.Ork:
+                currentTarget = ork;
+                if (Vector3.Distance(player.position, ork.position) < 2f)
+                {
                     current = PointerTarget.Exit;
                     currentTarget = exit;
                 }
                 break;
-        
             case PointerTarget.Exit:
                 currentTarget = exit;
                 break;
