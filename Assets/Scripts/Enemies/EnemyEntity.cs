@@ -8,7 +8,7 @@ public class EnemyEntity : MonoBehaviour
 
     private BoxCollider2D boxCollider2D;
     private EnemyAi enemyAi;
-    private EnemyAttack enemyAttack;
+    [SerializeField] private EnemyAttack enemyAttack;
 
     public event EventHandler OnTakeHit;
     public event EventHandler OnDeath;
@@ -17,7 +17,6 @@ public class EnemyEntity : MonoBehaviour
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
         enemyAi = GetComponent<EnemyAi>();
-        enemyAttack = GetComponent<EnemyAttack>();
 
     }
     private void Start()

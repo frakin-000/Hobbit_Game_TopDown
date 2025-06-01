@@ -28,7 +28,7 @@ public class SpiderVisual : MonoBehaviour
     private void EnemyEntity_OnDeath(object sender, System.EventArgs e)
     {
         animator.SetBool(IsDie, true);
-        spriteRenderer.sortingOrder = -1;
+        spriteRenderer.sortingOrder = 2;
     }
 
     private void EnemyAi_OnEnemyAttack(object sender, System.EventArgs e)

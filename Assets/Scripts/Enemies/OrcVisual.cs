@@ -38,11 +38,6 @@ public class OrcVisual : MonoBehaviour
         animator.SetTrigger(TakeHit);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Attack");
-    }
-
     private void EnemyAi_OnEnemyAttack(object sender, System.EventArgs e)
     {
         animator.SetTrigger(Attack);
