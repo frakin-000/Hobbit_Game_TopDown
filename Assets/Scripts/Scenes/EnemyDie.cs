@@ -15,6 +15,11 @@ public class EnemyDie : MonoBehaviour
         }
     }
 
+    public bool IsEveryoneDead()
+    {
+        return CountEnemyAlive == 0;
+    }
+
     private void Start()
     {
         NextLevel.SetActive(false);
