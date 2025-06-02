@@ -24,8 +24,8 @@ public class Pointerforshir : MonoBehaviour
     }
 
     private PointerTarget current = PointerTarget.Farm;
-    
-    
+
+
     void Update()
     {
         switch (current)
@@ -38,7 +38,7 @@ public class Pointerforshir : MonoBehaviour
                     currentTarget = bar;
                 }
                 break;
-        
+
             case PointerTarget.Bar:
                 currentTarget = bar;
                 if (Vector3.Distance(player.position, bar.position) < 2f)
@@ -47,7 +47,7 @@ public class Pointerforshir : MonoBehaviour
                     currentTarget = firePoint;
                 }
                 break;
-        
+
             case PointerTarget.FirePoint:
                 currentTarget = firePoint;
                 if (Vector3.Distance(player.position, firePoint.position) < 2f)
@@ -75,7 +75,7 @@ public class Pointerforshir : MonoBehaviour
         }
     }
 
-    
+
     private void ChangePointer(Transform goal)
     {
         var fromPlayerToTarget = goal.position - player.position;
@@ -94,6 +94,9 @@ public class Pointerforshir : MonoBehaviour
         }
         minDistance = Mathf.Clamp(minDistance, 0, fromPlayerToTarget.magnitude);
         var worldPosition = ray.GetPoint(minDistance);
-        pointerIconTransform.position = camera.WorldToScreenPoint(worldPosition);
+        var newPosition = camera.WorldToScreenPoint(worldPosition);
+        newPosition.x = Math.Max(130, newPosition.x);
+        newPosition.y = Math.Min(1300, newPosition.y);
+        pointerIconTransform.position = newPosition;
     }
 }
