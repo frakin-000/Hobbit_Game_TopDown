@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 [ExecuteAlways]
 public class Pointer : MonoBehaviour
@@ -39,6 +40,10 @@ public class Pointer : MonoBehaviour
         }
         minDistance = Mathf.Clamp(minDistance, 0, fromPlayerToTarget.magnitude);
         var worldPosition = ray.GetPoint(minDistance);
-        pointerIconTransform.position = camera.WorldToScreenPoint(worldPosition);
+        //pointerIconTransform.position = camera.WorldToScreenPoint(worldPosition);
+        var newPosition = camera.WorldToScreenPoint(worldPosition);
+        newPosition.x = Math.Max(130, newPosition.x);
+        newPosition.y = Math.Min(1300, newPosition.y);
+        pointerIconTransform.position = newPosition;
     }
 }
