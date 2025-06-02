@@ -96,7 +96,7 @@ public class Pointerforshir : MonoBehaviour
         var worldPosition = ray.GetPoint(minDistance);
         var newPosition = camera.WorldToScreenPoint(worldPosition);
         newPosition.x = Math.Max(130, newPosition.x);
-        newPosition.y = Math.Min(1300, newPosition.y);
+        newPosition.y = Math.Min(980, newPosition.y);
         pointerIconTransform.position = newPosition;
     }
 }

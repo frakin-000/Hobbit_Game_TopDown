@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheEnd.unity
     guid: 0bd6fe56917a0d243a542e4c4e835a3c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/New Scene.unity
     guid: 805dff308abd1ce41949f58bf1b161ec
   - enabled: 0
